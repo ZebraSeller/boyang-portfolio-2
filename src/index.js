@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <p>This is probably where the footer will be.</p>
   </React.StrictMode>,
   document.getElementById('root')
 );
