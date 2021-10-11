@@ -1,17 +1,17 @@
 import React from 'react';
-import logo from '../logo.svg';
 import './home.css';
 
-import Nav_Bar from '../general_comps/nav_bar';
+import boyang1 from '../assets/boyang-1.jpg';
 
 function App() {
   return (
     <div className="home-container">
-      <h1>Boyang's Site 2.0</h1>
-      <img src = {logo} width = "250px"/>
-      <div className="place-holder">
-        
-      </div>
+      <div style={{height:"4vw"}}></div>
+      <p>Boyang's Site 2.0 Work In Progress</p>
+      <img src = {boyang1} width = "250px"/>
+      <h1>Greetings.</h1>
+      <p>I am Boyang Yu, a software developer, designer, amateur artist, and student.</p>
+      <div className="place-holder"></div>
       <h1>Bottom Text</h1>
     </div>
   );

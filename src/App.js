@@ -20,7 +20,6 @@ function App() {
           <Route path="/contact_me" exact component={Home}/>
         </Switch>
         <Footer />
-        <p>This is probably where the footer will be.</p>
       </div>
     </Router>
   );
