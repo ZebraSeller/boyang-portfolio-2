@@ -18,7 +18,7 @@
   user-select: none;
 }
 .button:hover {
-  background-color: hsl(30, 5%, 15%);
+  background-color: hsl(30, 5%, 17%);
   color: hsl(45, 75%, 50%);
 
 }

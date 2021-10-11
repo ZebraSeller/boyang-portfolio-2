@@ -11,8 +11,11 @@ function App() {
       <img src = {boyang1} width = "250px"/>
       <h1>Greetings.</h1>
       <p>I am Boyang Yu, a software developer, designer, amateur artist, and student.</p>
+      <p>Link to Old Website: </p>
+      <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
       <div className="place-holder"></div>
       <h1>Bottom Text</h1>
+
     </div>
   );
 }
