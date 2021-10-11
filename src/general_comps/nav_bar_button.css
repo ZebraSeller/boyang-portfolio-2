@@ -1,4 +1,4 @@
-.button {
+.nav-bar-button {
   display: inline-block;
   font-size: 24px;
   width: 19.8%;
@@ -11,21 +11,23 @@
   transition-duration: 0.25s;
   padding: 0px;
   margin: 0px;
+  cursor: pointer;
 
   text-align: center;
   line-height: 4vw;
   font-family: Montserrat-Light;
   user-select: none;
 }
-.button:hover {
+.nav-bar-button:hover {
   background-color: hsl(30, 5%, 17%);
   color: hsl(45, 75%, 50%);
 
 }
-.button:active {
+.nav-bar-button:active {
   background-color: hsl(45, 75%, 50%);
   border-color: hsl(30, 5%, 25%);
   color: white;
+  transform: scale(90%);
 }
 
 .border-left {

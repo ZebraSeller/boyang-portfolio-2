@@ -19,4 +19,5 @@ html {
   font-size: 10 px;
   background-color: hsl(30, 5%, 35%);
   font-family: Montserrat-Light;
+  box-sizing: border-box;
 }

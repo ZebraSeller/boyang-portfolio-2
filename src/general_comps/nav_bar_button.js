@@ -16,7 +16,7 @@ function App({
     };
   }
 	return (
-				<div onClick={onClick} className="button">
+				<div onClick={onClick} className="nav-bar-button">
           <div className="border-left"></div>
           {text}
           <div className="border-right" style={borderRightStyle}></div>
