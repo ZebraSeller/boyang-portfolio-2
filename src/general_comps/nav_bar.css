@@ -26,36 +26,7 @@
   width: 85%;
   height: 100%;
   margin: 0px;
-  padding: 0px;
   vertical-align: top;
-}
-
-
-button {
-  display: inline-block;
-  font-size: 24px;
-  width: 19.8%;
-  height: 100%;
-  color: white;
-  background-color: hsl(30, 5%, 15%);
-  border: 2px solid hsl(45, 75%, 50%);
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
-  border-radius: 2px;
-  transition-duration: 0.25s;
-  padding: 0px;
-  margin: 0px;
-  font-family: Montserrat-Light;
-  
-}
-
-button:hover {
-  background-color: hsl(45, 75%, 50%);
-  border-color: hsl(30, 5%, 25%);
-}
-#right-most-button {
-  border-right: 2px solid hsl(45, 75%, 50%);
 }
 
 @media screen and (orientation: portrait) {

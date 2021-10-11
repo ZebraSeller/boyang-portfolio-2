@@ -1,0 +1,47 @@
+.button {
+  display: inline-block;
+  font-size: 24px;
+  width: 19.8%;
+  height: 100%;
+  color: white;
+  background-color: hsl(30, 5%, 15%);
+  /* border: 2px solid hsl(45, 75%, 50%); */
+  border: none;
+  border-radius: 0px;
+  transition-duration: 0.25s;
+  padding: 0px;
+  margin: 0px;
+
+  text-align: center;
+  line-height: 4vw;
+  font-family: Montserrat-Light;
+  user-select: none;
+}
+.button:hover {
+  background-color: hsl(30, 5%, 15%);
+  color: hsl(45, 75%, 50%);
+
+}
+.button:active {
+  background-color: hsl(45, 75%, 50%);
+  border-color: hsl(30, 5%, 25%);
+  color: white;
+}
+
+.border-left {
+  float: left;
+  position: relative;
+  background-color: hsl(45, 75%, 50%);
+  width: 1px;
+  height: 80%;
+  top: 10%;
+}
+
+.border-right {
+  float: right;
+  position: relative;
+  background-color: hsl(45, 75%, 50%);
+  width: 1px;
+  height: 80%;
+  top: 10%;
+}

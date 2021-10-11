@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Nav_Bar_Button from './nav_bar_button';
 import './nav_bar.css';
 import ZBIcon from '../assets/zb_logo_thick_white.png';
 
@@ -11,11 +12,11 @@ function App() {
 				<img src={ZBIcon} alt="LOGO.png" className="zb-icon"/>
 			</div>
 			<div className="button-container">
-				<button onClick="">About Me</button>
-				<button onClick="">Skills</button>
-				<button onClick="">Portfolio</button>
-				<button onClick="">Resume</button>
-				<button onClick="" id="right-most-button">Contact Me</button>
+				<Nav_Bar_Button text="About Me"/>
+				<Nav_Bar_Button text="Skills"/>
+				<Nav_Bar_Button text="Portfolio"/>
+				<Nav_Bar_Button text="Resume"/>
+				<Nav_Bar_Button text="Contact Me" turnOffRightBorder={false}/>
 			</div>
 			{/* <p>    </p>
 			<button>Extende/Hide nav_bar</button> */}
