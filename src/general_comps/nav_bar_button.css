@@ -1,6 +1,6 @@
 .nav-bar-button {
   display: inline-block;
-  font-size: 24px;
+  font-size: 1vw;
   width: 19.8%;
   height: 100%;
   color: white;
@@ -14,7 +14,7 @@
   cursor: pointer;
 
   text-align: center;
-  line-height: 4vw;
+  
   font-family: Montserrat-Light;
   user-select: none;
 }
@@ -28,6 +28,10 @@
   border-color: hsl(30, 5%, 25%);
   color: white;
   transform: scale(90%);
+}
+.nav-bar-button-text {
+  display: inline-block;
+  line-height: 4vw;
 }
 
 .border-left {

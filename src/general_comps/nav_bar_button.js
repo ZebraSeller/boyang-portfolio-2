@@ -18,7 +18,7 @@ function App({
 	return (
 				<div onClick={onClick} className="nav-bar-button">
           <div className="border-left"></div>
-          {text}
+          <span className="nav-bar-button-text">{text}</span>
           <div className="border-right" style={borderRightStyle}></div>
         </div>
   );

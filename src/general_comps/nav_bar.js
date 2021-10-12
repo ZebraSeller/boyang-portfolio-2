@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Nav_Bar_Button from './nav_bar_button';
+import NavBarButton from './nav_bar_button';
 import './nav_bar.css';
 import ZBIcon from '../assets/zb_logo_thick_white.png';
-
 function App() {
 	React.useEffect(() => {//run on load.
+		if (window.innerHeight > window.innerWidth) {
+			hideNavBar();
+		}
     //hideNavBar();
   }, []);
 
@@ -14,18 +16,17 @@ function App() {
     <div id="nav-bar-container">
 			<img src={ZBIcon} alt="LOGO.png" id="zb-icon"/>
 			<div className="button-container" id="button-container">
-				<Nav_Bar_Button text="About Me"/>
-				<Nav_Bar_Button text="Skills"/>
-				<Nav_Bar_Button text="Portfolio"/>
-				<Nav_Bar_Button text="Resume"/>
-				<Nav_Bar_Button text="Contact Me"/>
-				<div style={borderStyle}></div>
+				<NavBarButton text="About Me"/>
+				<NavBarButton text="Skills"/>
+				<NavBarButton text="Portfolio"/>
+				<NavBarButton text="Resume"/>
+				<NavBarButton text="Contact Me"/>
+				<NavBarButton text="Misc."/>
+				<div className="hide-button-border" style={borderStyle}></div>
 				<div onClick={() => hideNavBar()} id="hide-button">&#10094;</div>
-				<div style={borderStyle}></div>
+				<div className="hide-button-border" style={borderStyle}></div>
 			</div>
 			<div id="bottom-bar"></div>
-			{/* <p>    </p>
-			<button>Extende/Hide nav_bar</button> */}
     </div>
   );
 }
@@ -33,21 +34,44 @@ export default App;
 
 let navBarHidden = false;
 function hideNavBar() {
-	if (navBarHidden == false) {
-		document.getElementById("button-container").style.transform ="translateX(-95.1%)";
-		document.getElementById("zb-icon").style.paddingRight="0.5vw";
-		document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
-		document.getElementById("bottom-bar").style.transform ="translateX(-46%) scaleX(8.25%)";
-		document.getElementById("hide-button").innerHTML = "&#10095";
-		navBarHidden = true;
-	} else {
-		document.getElementById("button-container").style.transform ="";
-		document.getElementById("zb-icon").style.paddingRight="10%";
-		document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,1)";
-		document.getElementById("bottom-bar").style.transform ="";
-		document.getElementById("hide-button").innerHTML = "&#10094";
-		navBarHidden = false;
+	if (window.innerHeight > window.innerWidth) {//case: screen orientation portrait
+		if (navBarHidden === false) {
+			document.getElementById("button-container").style.transform ="translateY(-82.5%)";
+			document.getElementById("zb-icon").style.paddingRight="0.5vw";
+			document.getElementById("zb-icon").style.transform ="translateY(-36vh)";
+			document.getElementById("bottom-bar").style.transform ="translateY(-36vh)";
+			document.getElementById("hide-button").innerHTML = "&#10095";
+			document.getElementById("hide-button").style.transform ="translateX(-50%) rotateZ(90deg)";
+			setTimeout(function() 
+				{document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";}, 500);
+			navBarHidden = true;
+		} else {
+			document.getElementById("button-container").style.transform ="";
+			document.getElementById("zb-icon").style.paddingRight="0.5vw";
+			document.getElementById("zb-icon").style.transform ="";
+			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,1)";
+			document.getElementById("bottom-bar").style.transform ="";
+			document.getElementById("hide-button").innerHTML = "&#10094";
+			navBarHidden = false;
+		}
+	} else {//case: screen orientation landscape
+		if (navBarHidden === false) {
+			document.getElementById("button-container").style.transform ="translateX(-95.1%)";
+			document.getElementById("zb-icon").style.paddingRight="0.5vw";
+			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
+			document.getElementById("bottom-bar").style.transform ="translateX(-46%) scaleX(8.25%)";
+			document.getElementById("hide-button").innerHTML = "&#10095";
+			navBarHidden = true;
+		} else {
+			document.getElementById("button-container").style.transform ="";
+			document.getElementById("zb-icon").style.paddingRight="10%";
+			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,1)";
+			document.getElementById("bottom-bar").style.transform ="";
+			document.getElementById("hide-button").innerHTML = "&#10094";
+			navBarHidden = false;
+		}
 	}
+	
 }
 
 

@@ -3,19 +3,24 @@ import './home.css';
 
 import boyang1 from '../assets/boyang-1.jpg';
 
+let theme = 0;
 function App() {
   return (
     <div className="home-container">
-      <div style={{height:"4vw"}}></div>
-      <p>Boyang's Site 2.0 Work In Progress</p>
-      <img src = {boyang1} width = "250px"/>
-      <h1>Greetings.</h1>
-      <p>I am Boyang Yu, a software developer, designer, amateur artist, and student.</p>
-      <p>Link to Old Website: </p>
-      <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
-      <div className="place-holder"></div>
-      <h1>Bottom Text</h1>
-
+      <div className="home-box">
+        <div style={{height:"4vw"}}></div>
+        <p>Boyang's Site 2.0, This is a Work In Progress</p>
+        <div style={{height:"6vw"}}></div>
+        <h1>Greetings, I am Boyang Yu</h1>
+        <img id="boyang-photo-1" src = {boyang1} width = "320px"/>
+        <p className="intro-text">An Undergraduate Student Majoring in Material Science and Engineering 
+          at University of Illinois at Urbana-Champaign</p>
+        <p className="intro-text"> Software Developer | Amateur Artist | Designer</p>
+        <p>Link to Old Website: </p>
+        <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
+        <div className="place-holder">Place Holder</div>
+        
+      </div>
     </div>
   );
 }
