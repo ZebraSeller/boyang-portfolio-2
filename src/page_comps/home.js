@@ -3,7 +3,6 @@ import './home.css';
 
 import boyang1 from '../assets/boyang-1.jpg';
 
-let theme = 0;
 function App() {
   return (
     <div className="home-container">
