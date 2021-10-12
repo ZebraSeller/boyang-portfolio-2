@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/boyang-portfolio-2/static/css/main.3ce11714.chunk.css",
-    "main.js": "/boyang-portfolio-2/static/js/main.7fee98ac.chunk.js",
-    "main.js.map": "/boyang-portfolio-2/static/js/main.7fee98ac.chunk.js.map",
-    "runtime-main.js": "/boyang-portfolio-2/static/js/runtime-main.fff42d98.js",
-    "runtime-main.js.map": "/boyang-portfolio-2/static/js/runtime-main.fff42d98.js.map",
-    "static/js/2.cd58ff4c.chunk.js": "/boyang-portfolio-2/static/js/2.cd58ff4c.chunk.js",
-    "static/js/2.cd58ff4c.chunk.js.map": "/boyang-portfolio-2/static/js/2.cd58ff4c.chunk.js.map",
-    "static/js/3.12f3e940.chunk.js": "/boyang-portfolio-2/static/js/3.12f3e940.chunk.js",
-    "static/js/3.12f3e940.chunk.js.map": "/boyang-portfolio-2/static/js/3.12f3e940.chunk.js.map",
+    "main.js": "/boyang-portfolio-2/static/js/main.b78f6a91.chunk.js",
+    "main.js.map": "/boyang-portfolio-2/static/js/main.b78f6a91.chunk.js.map",
+    "runtime-main.js": "/boyang-portfolio-2/static/js/runtime-main.0cbca341.js",
+    "runtime-main.js.map": "/boyang-portfolio-2/static/js/runtime-main.0cbca341.js.map",
+    "static/js/2.5cbea36e.chunk.js": "/boyang-portfolio-2/static/js/2.5cbea36e.chunk.js",
+    "static/js/2.5cbea36e.chunk.js.map": "/boyang-portfolio-2/static/js/2.5cbea36e.chunk.js.map",
+    "static/js/3.01c6302a.chunk.js": "/boyang-portfolio-2/static/js/3.01c6302a.chunk.js",
+    "static/js/3.01c6302a.chunk.js.map": "/boyang-portfolio-2/static/js/3.01c6302a.chunk.js.map",
     "index.html": "/boyang-portfolio-2/index.html",
     "static/css/main.3ce11714.chunk.css.map": "/boyang-portfolio-2/static/css/main.3ce11714.chunk.css.map",
-    "static/js/2.cd58ff4c.chunk.js.LICENSE.txt": "/boyang-portfolio-2/static/js/2.cd58ff4c.chunk.js.LICENSE.txt",
+    "static/js/2.5cbea36e.chunk.js.LICENSE.txt": "/boyang-portfolio-2/static/js/2.5cbea36e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/boyang-portfolio-2/static/media/Montserrat-Light.60cf1cbb.otf",
     "static/media/boyang-1.cdf830d4.jpg": "/boyang-portfolio-2/static/media/boyang-1.cdf830d4.jpg",
     "static/media/zb_logo_thick_white.ed455213.png": "/boyang-portfolio-2/static/media/zb_logo_thick_white.ed455213.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fff42d98.js",
-    "static/js/2.cd58ff4c.chunk.js",
+    "static/js/runtime-main.0cbca341.js",
+    "static/js/2.5cbea36e.chunk.js",
     "static/css/main.3ce11714.chunk.css",
-    "static/js/main.7fee98ac.chunk.js"
+    "static/js/main.b78f6a91.chunk.js"
   ]
 }
