@@ -95,6 +95,7 @@
   #hide-button {
     transform: rotateZ(90deg);
     width: 8vw;
+    margin-top: 1vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
     border-radius: 1vw;
