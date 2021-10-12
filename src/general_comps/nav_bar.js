@@ -16,11 +16,11 @@ function App() {
     <div id="nav-bar-container">
 			<img src={ZBIcon} alt="LOGO.png" id="zb-icon"/>
 			<div className="button-container" id="button-container">
-				<NavBarButton text="About Me"/>
+				<NavBarButton text="About Me" linkToPage="/boyang-portfolio-2/"/>
 				<NavBarButton text="Skills"/>
 				<NavBarButton text="Portfolio"/>
 				<NavBarButton text="Resume"/>
-				<NavBarButton text="Contact Me"/>
+				<NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/contact_me"/>
 				<NavBarButton text="Misc."/>
 				<div className="hide-button-border" style={borderStyle}></div>
 				<div onClick={() => hideNavBar()} id="hide-button">&#10094;</div>
@@ -73,7 +73,6 @@ function hideNavBar() {
 	}
 	
 }
-
 
 let borderStyle = {
 	float: "right",
