@@ -17,7 +17,7 @@ function App() {
         <p className="intro-text"> Software Developer | Amateur Artist | Designer</p>
         <p>Link to Old Website: </p>
         <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
-        <div className="place-holder">Place Holder</div>
+        <div className="place-holder">...Place Holder...</div>
         
       </div>
     </div>
