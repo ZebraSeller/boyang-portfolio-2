@@ -2,7 +2,9 @@
   height: 100%;
   color: white;
   /* background-color: hsl(30, 5%, 5%); */
-  background-image: linear-gradient(135deg, hsl(45, 15%, 30%), hsl(45, 10%, 30%), hsl(45, 5%, 15%));
+  /* background-image: linear-gradient(135deg, hsl(45, 15%, 30%), hsl(45, 10%, 30%), hsl(45, 5%, 15%)); */
+  background-image: url("../assets/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.jpg");
+  background-size: 100% 80%;
 }
 .home-box {
   display: block;
