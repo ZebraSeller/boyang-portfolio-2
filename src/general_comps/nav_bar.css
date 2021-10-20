@@ -15,7 +15,6 @@
   width: 7vh;
   float: left;
   padding: 0.5vh;
-  margin-right: 10%;
   background-color: hsl(30, 5%, 15%);
   z-index: 1;
   left: 0%;
@@ -24,8 +23,10 @@
   cursor: pointer;
 }
 
+
 .button-container {
   display:inline-flex;
+  padding-left: 7.5%;
   width: 82%;
   height: 8vh;
   margin: 0px;
@@ -81,12 +82,14 @@
   #zb-icon {
     width: 11vw;
     padding: 0.5vw;
+    margin-right: 0%;
   }
   .button-container {
     width: 87%;
     height: 48vh;
     flex-direction: column;
     align-items: center;
+    padding-left: 0%;
   }
   .nav-bar-button {
     width: 100%;

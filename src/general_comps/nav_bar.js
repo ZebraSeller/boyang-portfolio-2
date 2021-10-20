@@ -61,7 +61,7 @@ function hideNavBar() {
 		}
 	} else {//case: screen orientation landscape
 		if (navBarHidden === false) {
-			document.getElementById("button-container").style.transform ="translateX(-94.6%)";
+			document.getElementById("button-container").style.transform ="translateX(-95.75%)";
 			document.getElementById("zb-icon").style.paddingRight="0.5vw";
 			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
 			document.getElementById("bottom-bar").style.transform ="translateX(-46%) scaleX(8.25%)";
@@ -69,7 +69,6 @@ function hideNavBar() {
 			navBarHidden = true;
 		} else {
 			document.getElementById("button-container").style.transform ="";
-			document.getElementById("zb-icon").style.paddingRight="10%";
 			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,1)";
 			document.getElementById("bottom-bar").style.transform ="";
 			document.getElementById("hide-button").innerHTML = "&#10094";
