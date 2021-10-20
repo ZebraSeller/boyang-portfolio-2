@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBarButton from './nav_bar_button';
+import {Link} from 'react-router-dom';
+
 import './nav_bar.css';
 import ZBIcon from '../assets/zb_logo_thick_white.png';
 function App() {
@@ -14,7 +16,9 @@ function App() {
 	//make nav bar auto hide into a square icon on top left after scroll down.
 	return (
     <div id="nav-bar-container">
-			<img src={ZBIcon} alt="LOGO.png" id="zb-icon"/>
+			<Link to="/boyang-portfolio-2/" id="top-icon-link">
+				<img src={ZBIcon} alt="LOGO.png" id="zb-icon"/>
+			</Link>
 			<div className="button-container" id="button-container">
 				<NavBarButton text="About Me" linkToPage="/boyang-portfolio-2/"/>
 				<NavBarButton text="Skills"/>
@@ -36,14 +40,15 @@ let navBarHidden = false;
 function hideNavBar() {
 	if (window.innerHeight > window.innerWidth) {//case: screen orientation portrait
 		if (navBarHidden === false) {
-			document.getElementById("button-container").style.transform ="translateY(-98.1%)";
+			document.getElementById("button-container").style.transform ="translateY(-100%)";
 			document.getElementById("zb-icon").style.paddingRight="0.5vw";
 			document.getElementById("zb-icon").style.transform ="translateY(-36vh)";
-			document.getElementById("bottom-bar").style.transform ="translateY(-36vh)";
+			document.getElementById("bottom-bar").style.transform ="translateY(-48vh)";
 			document.getElementById("hide-button").innerHTML = "&#10095";
 			document.getElementById("hide-button").style.transform ="translateX(-50%) rotateZ(90deg)";
-			setTimeout(function() 
-				{document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";}, 500);
+			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
+			// setTimeout(function() 
+			// 	{document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";}, 100);
 			navBarHidden = true;
 		} else {
 			document.getElementById("button-container").style.transform ="";
@@ -56,7 +61,7 @@ function hideNavBar() {
 		}
 	} else {//case: screen orientation landscape
 		if (navBarHidden === false) {
-			document.getElementById("button-container").style.transform ="translateX(-95.1%)";
+			document.getElementById("button-container").style.transform ="translateX(-94.6%)";
 			document.getElementById("zb-icon").style.paddingRight="0.5vw";
 			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
 			document.getElementById("bottom-bar").style.transform ="translateX(-46%) scaleX(8.25%)";

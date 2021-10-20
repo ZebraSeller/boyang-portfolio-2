@@ -1,7 +1,7 @@
 .nav-bar-button {
   display: inline-block;
-  font-size: 1vw;
-  width: 19.8%;
+  font-size: 1.8vh;
+  width: 19%;
   height: 100%;
   color: white;
   background-color: hsl(30, 5%, 15%);
@@ -48,7 +48,7 @@
 }
 .nav-bar-button-text {
   display: inline-block;
-  line-height: 4vw;
+  line-height: 8vh;
 }
 
 .border-left {
