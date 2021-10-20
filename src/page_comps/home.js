@@ -15,21 +15,26 @@ function App() {
   });
   
   function homeScrollUp(yOffset) {
-    var opacityFraction = (500 - yOffset) / 450;
+    var opacityFraction = (525 - yOffset) / 450;
     var scaleFraction = 1 + yOffset / 5000;
     
     document.getElementById("background-image").style.transform = "scale("+ scaleFraction + "," + scaleFraction + ")";
     document.getElementById("home-box").style.opacity = opacityFraction;
-    document.getElementById("home-box").style.transform = "translateY(" + (yOffset / 1.05) + "px)";
+
+    if (window.innerHeight > window.innerWidth) {//case: screen orientation portrait
+      document.getElementById("home-box").style.transform = "translateY(" + (yOffset / 5) + "px)";
+    } else {
+      document.getElementById("home-box").style.transform = "translateY(" + (yOffset / 1.15) + "px)";
+    }
   }
-  
+
   return (
     <div className="home-container">
       <img id="background-image" src={background} alt="bg"/>
       <div id="home-box">
-        <div style={{height:"8vh"}}></div>
+        <div style={{height:"8vh"}} className="place-holder"></div>
         <p>Boyang's Site 2.0, This is a Work In Progress</p>
-        <div style={{height:"12vh"}}></div>
+        <div style={{height:"12vh"}} className="place-holder"></div>
         <h1 id="greetings">Greetings, I am Boyang Yu</h1>
         <img id="boyang-photo-1" src = {boyang1} width = "320px"/>
         <p className="intro-text">Material Science and Engineering Major
