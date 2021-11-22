@@ -1,4 +1,5 @@
 .home-container {
+  width: 100%;
   height: 100%;
   color: white;
   background-color: hsla(30, 5%, 5%, 0);
@@ -31,10 +32,10 @@ h1 {
 
 @media screen and (orientation: portrait) {
   h1 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   #boyang-photo-1 {
-    width: 60vw;
+    width: 50vw;
   }
   #home-box {
     height: 125vh;

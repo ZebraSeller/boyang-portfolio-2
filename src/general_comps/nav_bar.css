@@ -19,11 +19,15 @@
   z-index: 1;
   left: 0%;
   top: 0%;
-  transition-duration: 1s;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
-
-
+#zb-icon:hover {
+  background-color: hsl(45, 75%, 50%);
+}
+#zb-icon:active {
+  background-color: hsl(30, 5%, 15%);
+}
 .button-container {
   display:inline-flex;
   padding-left: 7.5%;

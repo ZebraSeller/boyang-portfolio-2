@@ -1,0 +1,30 @@
+.skill-icon-container {
+  width: 115px;
+  height: 115px;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+  transition-duration: 0.4s;
+}
+p {
+  margin: 0px;
+}
+.skill-icon-container:hover {
+  background-color: hsl(45, 75%, 50%);
+  color: hsl(30, 5%, 10%);
+  transform: scale(105%);
+}
+.skill-icon-container-no-hover {
+  width: 115px;
+  height: 115px;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+}
+@media screen and (orientation: portrait) {
+  .skill-icon-container {
+    width: 80px;
+  }
+}
