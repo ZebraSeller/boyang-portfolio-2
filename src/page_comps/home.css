@@ -23,10 +23,11 @@
   padding: 0px;
 }
 h1 {
-  font-size: 48px;
+  font-size: 5.4vh;
 }
 #boyang-photo-1 {
   border: 1px solid hsl(45, 75%, 50%);
+  height: 32vh;
 }
 
 
@@ -36,6 +37,7 @@ h1 {
   }
   #boyang-photo-1 {
     width: 50vw;
+    height: 50vw;
   }
   #home-box {
     height: 125vh;

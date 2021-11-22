@@ -16,7 +16,7 @@ function App() {
   });
   
   function homeScrollUp(yOffset) {
-    var opacityFraction = (525 - yOffset) / 450;
+    var opacityFraction = (window.innerHeight / 3 - yOffset) / (window.innerHeight / 4);
     var scaleFraction = 1 + yOffset / 5000;
     
     document.getElementById("background-image").style.transform = "scale("+ scaleFraction + "," + scaleFraction + ")";
@@ -37,7 +37,7 @@ function App() {
         <p>Boyang's Site 2.0, This is a Work In Progress</p>
         <div style={{height:"12vh"}} className="place-holder"></div>
         <h1 id="greetings">Greetings, I am Boyang Yu</h1>
-        <img id="boyang-photo-1" src = {boyang1} width = "360px"/>
+        <img id="boyang-photo-1" src = {boyang1}/>
         <p className="intro-text">Material Science and Engineering Major
           &amp; Minoring in Computer Science <br/>
           @ University of Illinois at Urbana-Champaign</p>
