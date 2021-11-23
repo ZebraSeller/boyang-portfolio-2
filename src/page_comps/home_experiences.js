@@ -6,7 +6,7 @@ function App() {
       <div id="top-bar"/> <br/>
       <h1 className="experiences-header1">My Experiences</h1>
       <div className="experience-container">
-        <h2 className="experience-title">Web Development Intership at Shoptaki</h2>
+        <h2 className="experience-title">Web Development &amp; Front-End Engineer Internship at Shoptaki</h2>
         <h2 className="experience-time">June-August 2021</h2>
         <p className="experience-list">• Worked on web apps, designed UI and implemented web pages with HTML, and React JS.</p>
         <p className="experience-list">• Collaborated with team members to create new components and pages for websites.</p>
@@ -16,7 +16,7 @@ function App() {
         <h2 className="experience-title">Personal Portfolio Website Project 2.0 ( This website right here! :-) )</h2>
         <h2 className="experience-time">September-November 2021</h2>
         <p className="experience-list">• Created a personal demo portfolio/info website that act as an interactive resume.</p>
-        <p className="experience-list">• Used HTML, CSS, JavaScript, and React to create visual elements that improve user interaction.</p>
+        <p className="experience-list">• Used HTML, CSS, JavaScript, and React to create web application and visual elements that improve user interaction.</p>
         <p className="experience-list">• The React App was deployed to and hosted on Github Pages.</p>
         <p className="experience-list">• WIP 2.0 website URL: <a href="https://zebraseller.github.io/boyang-portfolio-2/" className="links">https://zebraseller.github.io/boyang-portfolio-2/</a></p>
         <p className="experience-list">• Discontinued old website (1.0) URL: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
@@ -35,6 +35,27 @@ function App() {
         <p className="experience-list">• Created 3D models and respective UV mapped textures</p>
         <p className="experience-list">• Modelled organic and non-organic objects, terrains, etc.</p>
         <p className="experience-list">• ArtStation Album of 3D Modeling Portfolio: <a href="https://zebraseller.artstation.com/albums/2056553" className="links">https://zebraseller.artstation.com/albums/2056553</a></p>
+      </div>
+      <div className="experience-container">
+        <h2 className="experience-title">First Tech Challenge (FTC) Robotics Competition</h2>
+        <h2 className="experience-time">2017-2019</h2>
+        <p className="experience-list">• Designed and built mechanisms for the robot to complete various tasks.</p>
+        <p className="experience-list">• Aided in Outreaching by using photoshop to design posters and logos for the team.</p>
+        <p className="experience-list">• Programmed the robot's behaviors during autonomous control using Java.</p>
+        <p className="experience-list">• Team ranked top 3 in local competition and advanced to FTC World Championships.</p>
+      </div>
+      <h1 className="experiences-header1">Awards and Honors</h1>
+      <div className="award-container">
+        <h2 className="experience-title">Dean's List of the Grainger College of Engineering (UIUC)</h2>
+        {/* <h2 className="experience-time">Spring 2021</h2> */}
+      </div>
+      <div className="award-container">
+        <h2 className="experience-title">AP Scholar with Distinction</h2>
+        <h2 className="experience-time">July 2019</h2>
+      </div>
+      <div className="award-container">
+        <h2 className="experience-title">President's Volunteer Service Gold Award</h2>
+        <h2 className="experience-time">2016</h2>
       </div>
     </div>
   );

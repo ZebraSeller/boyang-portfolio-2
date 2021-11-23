@@ -50,23 +50,22 @@ let navBarHidden = false;
 function hideNavBar() {
 	if (window.innerHeight > window.innerWidth) {//case: screen orientation portrait
 		if (navBarHidden === false) {
-			document.getElementById("button-container").style.transform ="translateY(-100%)";
+			document.getElementById("nav-bar-container").style.transform ="translateY(-56vh)";
 			document.getElementById("zb-icon").style.paddingRight="0.5vw";
 			document.getElementById("zb-icon").style.transform ="translateY(-36vh)";
-			document.getElementById("bottom-bar").style.transform ="translateY(-48vh)";
+			// document.getElementById("bottom-bar").style.transform ="translateY(-56vh)";
 			document.getElementById("hide-button").innerHTML = "&#10095";
 			document.getElementById("hide-button").style.transform ="translateX(-50%) rotateZ(90deg)";
-			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
+			
 			
 			// setTimeout(function() 
 			// 	{document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";}, 100);
 			navBarHidden = true;
 		} else {
-			document.getElementById("button-container").style.transform ="";
+			document.getElementById("nav-bar-container").style.transform ="";
 			document.getElementById("zb-icon").style.paddingRight="0.5vw";
 			document.getElementById("zb-icon").style.transform ="";
-			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,1)";
-			document.getElementById("bottom-bar").style.transform ="";
+			
 			document.getElementById("hide-button").innerHTML = "&#10094";
 			document.getElementById("nav-bar-container").style.zIndex = 2;
 			navBarHidden = false;
