@@ -7,7 +7,6 @@ import './nav_bar.css';
 import ZBIcon from '../assets/zb_logo_thick_white.png';
 function App() {
 	const URL = useLocation(); //the object URL will have properties pathname, hash etc.
-	console.log(URL.pathname);
 	React.useEffect(() => {//will run on load.
 		if (URL.hash === ''){//if at default URL, scroll to Top.
 			window.scrollTo({top: 0, left: 0, behavior: 'smooth'});

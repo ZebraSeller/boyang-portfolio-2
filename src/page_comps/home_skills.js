@@ -22,6 +22,25 @@ import rStudioIcon from "../assets/skill-icons/rstudio.png";
 import eclipseIcon from "../assets/skill-icons/eclipse.png";
 import githubIcon from "../assets/skill-icons/github.png";
 
+import rIcon from "../assets/skill-icons/r.png";
+import matlabIcon from "../assets/skill-icons/matlab.png";
+import excelIcon from "../assets/skill-icons/excel.png";
+import wordIcon from "../assets/skill-icons/word.png";
+import powerpointIcon from "../assets/skill-icons/powerpoint.png";
+import photoshopIcon from "../assets/skill-icons/photoshop.png";
+import illustratorIcon from "../assets/skill-icons/illustrator.png";
+import premiereIcon from "../assets/skill-icons/premiere.png";
+import dsMaxIcon from "../assets/skill-icons/3dsmax.png";
+import blenderIcon from "../assets/skill-icons/blender.png";
+import substancePainterIcon from "../assets/skill-icons/substancepainter.png";
+import englishIcon from "../assets/skill-icons/english.png";
+import chineseIcon from "../assets/skill-icons/chinese.png";
+import pcBuildingIcon from "../assets/skill-icons/pcbuilding.png";
+import conceptDesignIcon from "../assets/skill-icons/conceptdesign.png";
+import uiDesignIcon from "../assets/skill-icons/uidesign.png";
+import graphicDesignIcon from "../assets/skill-icons/graphicdesign.png";
+import webDesignIcon from "../assets/skill-icons/webdesign.png";
+
 function App() {
   return (
     <div id="home-skills-container"> 
@@ -55,40 +74,40 @@ function App() {
         </div>
         <div className="skill-category">
           <h3 className="category-title">Data Analysis &amp; Productivity</h3>
-          <SkillIcon image={githubIcon} text="R"/>
-          <SkillIcon image={githubIcon} text="MATLAB"/>
-          <SkillIcon image={githubIcon} text="Excel"/>
-          <SkillIcon image={githubIcon} text="Word"/>
-          <SkillIcon image={githubIcon} text="PowePoint"/>
+          <SkillIcon image={rIcon} text="R"/>
+          <SkillIcon image={matlabIcon} text="MATLAB"/>
+          <SkillIcon image={excelIcon} text="Excel"/>
+          <SkillIcon image={wordIcon} text="Word"/>
+          <SkillIcon image={powerpointIcon} text="PowePoint"/>
         </div>
         <div className="skill-category">
           <h3 className="category-title">Digital Imaging &amp; Art</h3>
-          <SkillIcon image={githubIcon} text="Illustrator"/>
-          <SkillIcon image={githubIcon} text="&#9733; Photoshop"/>
-          <SkillIcon image={githubIcon} text="Premiere Pro"/>
+          <SkillIcon image={illustratorIcon} text="Illustrator"/>
+          <SkillIcon image={premiereIcon} text="Premiere Pro"/>
+          <SkillIcon image={photoshopIcon} text="&#9733; Photoshop"/>
         </div>
         <div className="skill-category">
           <h3 className="category-title">3D Modeling &amp; Texturing</h3>
-          <SkillIcon image={githubIcon} text="&#9733; 3DS Max"/>
-          <SkillIcon image={githubIcon} text="&#9733; Blender"/>
-          <SkillIcon image={githubIcon} text="&#9733; Photoshop"/>
-          <SkillIcon image={githubIcon} text="Substance Painter" fontSize="12.5px"/>
+          <SkillIcon image={dsMaxIcon} text="&#9733; 3DS Max"/>
+          <SkillIcon image={blenderIcon} text="&#9733; Blender"/>
+          <SkillIcon image={photoshopIcon} text="&#9733; Photoshop"/>
+          <SkillIcon image={substancePainterIcon} text="Substance Painter" fontSize="12.5px"/>
         </div>
         <div className="skill-category">
           <h3 className="category-title">Languages</h3>
-          <SkillIcon image={githubIcon} text="&#9733; English"/>
-          <SkillIcon image={githubIcon} text="&#9733; Mandarin"/>
+          <SkillIcon image={englishIcon} text="&#9733; English"/>
+          <SkillIcon image={chineseIcon} text="&#9733; Mandarin"/>
         </div>
         <div className="skill-category">
           <h3 className="category-title">Miscellaneous</h3>
-          <SkillIcon image={githubIcon} text="&#9733; PC Building"/>
-          <SkillIcon image={githubIcon} text="Concept Design" fontSize="14.25px"/>
-          <SkillIcon image={githubIcon} text="&#9733; UI Design"/>
-          <SkillIcon image={githubIcon} text="Graphic Design" fontSize="14.25px"/>
-          <SkillIcon image={githubIcon} text="Web Design" fontSize="14.25px"/>
-          <SkillIcon image={githubIcon} text="Responsive Design" fontSize="12.25px"/>
+          <SkillIcon image={pcBuildingIcon} text="&#9733; PC Building"/>
+          <SkillIcon image={conceptDesignIcon} text="Concept Design" fontSize="14.25px"/>
+          <SkillIcon image={uiDesignIcon} text="UI Design"/>
+          <SkillIcon image={graphicDesignIcon} text="Graphic Design" fontSize="14.25px"/>
+          <SkillIcon image={webDesignIcon} text="Web Design" fontSize="14.25px"/>
         </div>
       </div>
+      <br/>
     </div>
   );
 }

@@ -1,6 +1,14 @@
 .footer-container {
-  background-color:hsl(30, 5%, 15%);
+  background-color:hsl(45, 75%, 50%);
   margin: 0px;
   padding: 25px;
-  height: 100px;
+  height: fit-content;
+}
+.footer-header {
+  font-size: 36px;
+  margin: 0.5%;
+}
+.footer-text {
+  font-size: 20px;
+  color: black;
 }
