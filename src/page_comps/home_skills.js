@@ -13,7 +13,6 @@ import cppIcon from "../assets/skill-icons/cpp.png";
 import pythonIcon from "../assets/skill-icons/python.png";
 import nodeJSIcon from "../assets/skill-icons/nodejs.png";
 import dotsIcon from "../assets/skill-icons/dots.png";
-
 import unityIcon from "../assets/skill-icons/unity.png";
 import vscodeIcon from "../assets/skill-icons/vscode.png";
 import vscIcon from "../assets/skill-icons/vsc.png";
@@ -21,7 +20,6 @@ import androidStudioIcon from "../assets/skill-icons/androidstudio.png";
 import rStudioIcon from "../assets/skill-icons/rstudio.png";
 import eclipseIcon from "../assets/skill-icons/eclipse.png";
 import githubIcon from "../assets/skill-icons/github.png";
-
 import rIcon from "../assets/skill-icons/r.png";
 import matlabIcon from "../assets/skill-icons/matlab.png";
 import excelIcon from "../assets/skill-icons/excel.png";
@@ -50,7 +48,7 @@ function App() {
       <p>&#9733; = I feel quite proud and confident about it!</p>
       <div id="categories-box">
         <div className="skill-category">
-          <h3 className="category-title">Programming Languages &amp; Libraries</h3>
+          <h2 className="category-title">Programming Languages &amp; Libraries</h2>
           <SkillIcon image={htmlIcon} text="&#9733; HTML 5"/>
           <SkillIcon image={cssIcon} text="&#9733; CSS 3"/>
           <SkillIcon image={jsIcon} text="&#9733; JavaScript"/>
@@ -63,7 +61,7 @@ function App() {
           <SkillIcon image={dotsIcon} text="Still Learning More..." width="85px" noHoeverEffect={true}/>
         </div>
         <div className="skill-category">
-          <h3 className="category-title">Software Development Tools</h3>
+          <h2 className="category-title">Software Development Tools</h2>
           <SkillIcon image={unityIcon} text="&#9733; Unity"/>
           <SkillIcon image={vscodeIcon} text="&#9733; VS Code"/>
           <SkillIcon image={vscIcon} text="Visual Studio"/>
@@ -73,7 +71,7 @@ function App() {
           <SkillIcon image={githubIcon} text="&#9733; GitHub"/>
         </div>
         <div className="skill-category">
-          <h3 className="category-title">Data Analysis &amp; Productivity</h3>
+          <h2 className="category-title">Data Analysis &amp; Productivity</h2>
           <SkillIcon image={rIcon} text="R"/>
           <SkillIcon image={matlabIcon} text="MATLAB"/>
           <SkillIcon image={excelIcon} text="Excel"/>
@@ -81,25 +79,25 @@ function App() {
           <SkillIcon image={powerpointIcon} text="PowePoint"/>
         </div>
         <div className="skill-category">
-          <h3 className="category-title">Digital Imaging &amp; Art</h3>
+          <h2 className="category-title">Digital Imaging &amp; Art</h2>
           <SkillIcon image={illustratorIcon} text="Illustrator"/>
           <SkillIcon image={premiereIcon} text="Premiere Pro"/>
           <SkillIcon image={photoshopIcon} text="&#9733; Photoshop"/>
         </div>
         <div className="skill-category">
-          <h3 className="category-title">3D Modeling &amp; Texturing</h3>
+          <h2 className="category-title">3D Modeling &amp; Texturing</h2>
           <SkillIcon image={dsMaxIcon} text="&#9733; 3DS Max"/>
           <SkillIcon image={blenderIcon} text="&#9733; Blender"/>
           <SkillIcon image={photoshopIcon} text="&#9733; Photoshop"/>
           <SkillIcon image={substancePainterIcon} text="Substance Painter" fontSize="12.5px"/>
         </div>
         <div className="skill-category">
-          <h3 className="category-title">Languages</h3>
+          <h2 className="category-title">Languages</h2>
           <SkillIcon image={englishIcon} text="&#9733; English"/>
           <SkillIcon image={chineseIcon} text="&#9733; Mandarin"/>
         </div>
         <div className="skill-category">
-          <h3 className="category-title">Miscellaneous</h3>
+          <h2 className="category-title">Miscellaneous</h2>
           <SkillIcon image={pcBuildingIcon} text="&#9733; PC Building"/>
           <SkillIcon image={conceptDesignIcon} text="Concept Design" fontSize="14.25px"/>
           <SkillIcon image={uiDesignIcon} text="UI Design"/>

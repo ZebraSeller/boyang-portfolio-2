@@ -1,7 +1,7 @@
 #home-skills-container {
   width: 100%;
   height: fit-content;
-  background-color: hsl(30, 5%, 15%);
+  background-color: hsl(30, 5%, 17%);
   z-index: 5;
 }
 #top-bar {
@@ -30,7 +30,7 @@
   height: fit-content;
   margin: 2%;
   padding: 0.5%;
-  background-color: hsl(30, 2.5%, 20%);
+  background-color: hsl(30, 2.5%, 22.5%);
   border-radius: 8px;
   transition-duration: 0.4s;
 }

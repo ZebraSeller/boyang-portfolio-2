@@ -30,6 +30,7 @@ function App() {
 			</Link>
 			<div className="button-container" id="button-container">
 				<NavBarButton text="About Me" linkToPage="/boyang-portfolio-2/#home-aboout-me-container"/>
+				<NavBarButton text="Experiences" linkToPage="/boyang-portfolio-2/#home-experiences-container"/>
 				<NavBarButton text="Skills" linkToPage="/boyang-portfolio-2/#home-skills-container"/>
 				<NavBarButton text="Portfolio"/>
 				<NavBarButton text="Resume"/>
@@ -56,6 +57,7 @@ function hideNavBar() {
 			document.getElementById("hide-button").innerHTML = "&#10095";
 			document.getElementById("hide-button").style.transform ="translateX(-50%) rotateZ(90deg)";
 			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";
+			
 			// setTimeout(function() 
 			// 	{document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,0)";}, 100);
 			navBarHidden = true;
@@ -66,6 +68,7 @@ function hideNavBar() {
 			document.getElementById("nav-bar-container").style.backgroundColor="hsla(30, 5%, 15%,1)";
 			document.getElementById("bottom-bar").style.transform ="";
 			document.getElementById("hide-button").innerHTML = "&#10094";
+			document.getElementById("nav-bar-container").style.zIndex = 2;
 			navBarHidden = false;
 		}
 	} else {//case: screen orientation landscape

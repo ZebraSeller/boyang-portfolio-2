@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './home_about_me';
 import Skills from './home_skills';
+import Experiences from './home_experiences';
 
 import './home.css';
 
@@ -43,10 +44,11 @@ function App() {
           @ University of Illinois at Urbana-Champaign</p>
         <p className="intro-text"> Software Developer | Web Developer | Amateur Artist | Designer</p>
         <p>Link to Old Website: </p>
-        <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
+        <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
         {/* <div className="place-holder">...This Page (& the rest of the website) is still Under Construction...</div> */}
       </div>
       <AboutMe />
+      <Experiences />
       <Skills />
     </div>
   );
