@@ -45,7 +45,7 @@ function App() {
       
       <div id="top-bar"/> <br/>
       <h1>My Skills</h1>
-      <p>&#9733; = I feel quite proud and confident about it!</p>
+      <p style={{color:"hsl(45, 50%, 50%)"}}>&#9733; = I feel quite proud and confident about it!</p>
       <div id="categories-box">
         <div className="skill-category">
           <h2 className="category-title">Programming Languages &amp; Libraries</h2>
@@ -81,8 +81,8 @@ function App() {
         <div className="skill-category">
           <h2 className="category-title">Digital Imaging &amp; Art</h2>
           <SkillIcon image={illustratorIcon} text="Illustrator"/>
-          <SkillIcon image={premiereIcon} text="Premiere Pro"/>
           <SkillIcon image={photoshopIcon} text="&#9733; Photoshop"/>
+          <SkillIcon image={premiereIcon} text="Premiere Pro"/>
         </div>
         <div className="skill-category">
           <h2 className="category-title">3D Modeling &amp; Texturing</h2>

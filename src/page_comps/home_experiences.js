@@ -4,6 +4,15 @@ function App() {
   return (
     <div id="home-experiences-container">
       <div id="top-bar"/> <br/>
+      <h1 className="experiences-header1">Education</h1>
+      <div className="experience-container">
+        <h2 className="experience-title">University of Illinois at Urbana-Champaign</h2>
+        <h2 className="experience-time">2019-2023</h2>
+        <p className="experience-list experience-bold">Major: Materials Science and Engineering.</p>
+        <p className="experience-list experience-bold" >Minor: Computer Science</p>
+        <p className="experience-list">Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
+        Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; Statistics and Probability</p>
+      </div>
       <h1 className="experiences-header1">My Experiences</h1>
       <div className="experience-container">
         <h2 className="experience-title">Web Development &amp; Front-End Engineer Internship at Shoptaki</h2>
@@ -39,10 +48,9 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">First Tech Challenge (FTC) Robotics Competition</h2>
         <h2 className="experience-time">2017-2019</h2>
-        <p className="experience-list">• Designed and built mechanisms for the robot to complete various tasks.</p>
+        <p className="experience-list">• Designed and built mechanisms for the robot, and programmed the robot's behaviors during autonomous control using Java.</p>
         <p className="experience-list">• Aided in Outreaching by using photoshop to design posters and logos for the team.</p>
-        <p className="experience-list">• Programmed the robot's behaviors during autonomous control using Java.</p>
-        <p className="experience-list">• Team ranked top 3 in local competition and advanced to FTC World Championships.</p>
+        <p className="experience-list">• Team ranked top 3 in regional competition and advanced to FTC World Championships.</p>
       </div>
       <h1 className="experiences-header1">Awards and Honors</h1>
       <div className="award-container">

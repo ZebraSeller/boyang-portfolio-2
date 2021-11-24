@@ -21,8 +21,12 @@ function App() {
       }, 0);
     }
   }, [URL.hash, URL.pathnamek, URL.key]); //if URL.hash or pathname changes, useEffect() will activate.
-
+	document.addEventListener('scroll',function() {
+    if(window.pageYOffset > window.innerHeight && !navBarHidden && !(window.innerHeight > window.innerWidth)) hideNavBar();
+		if(window.pageYOffset == 0 && navBarHidden && !(window.innerHeight > window.innerWidth)) hideNavBar();
+  });
 	//make nav bar auto hide into a square icon on top left after scroll down. 
+
 	return (
     <div id="nav-bar-container">
 			<Link to="/boyang-portfolio-2/" id="top-icon-link">
@@ -32,10 +36,10 @@ function App() {
 				<NavBarButton text="About Me" linkToPage="/boyang-portfolio-2/#home-aboout-me-container"/>
 				<NavBarButton text="Experiences" linkToPage="/boyang-portfolio-2/#home-experiences-container"/>
 				<NavBarButton text="Skills" linkToPage="/boyang-portfolio-2/#home-skills-container"/>
-				<NavBarButton text="Portfolio"/>
-				<NavBarButton text="Resume"/>
-				<NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/contact_me"/>
-				<NavBarButton text="Misc."/>
+				<NavBarButton text="Portfolio" onClick={() => {UnderConstructionAlert();}} linkToPage="/boyang-portfolio-2/portfolio"/>
+				<NavBarButton text="Resume" linkToPage="/boyang-portfolio-2/resume"/>
+				<NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/#footer-container"/>
+				{/* <NavBarButton text="Misc." onClick={() => {UnderConstructionAlert();}}/> */}
 				<div className="hide-button-border" style={borderStyle}></div>
 				<div onClick={() => hideNavBar()} id="hide-button">&#10094;</div>
 				<div className="hide-button-border" style={borderStyle}></div>
@@ -90,6 +94,10 @@ function hideNavBar() {
 		}
 	}
 	
+}
+
+function UnderConstructionAlert() {
+	alert("This page is still under construction");
 }
 
 let borderStyle = {

@@ -1,0 +1,55 @@
+#resume-container {
+  width: 100%;
+  height: fit-content;
+  background-color: hsl(30, 5%, 17%);
+}
+.resume-header1 {
+  color: white;
+  margin: 1%;
+}
+#resume-viewer {
+  width: 63vh;
+  height: 75vh;
+  border: 2px solid hsla(45, 50%, 50%, 0);
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  transition-duration: 0.4s;
+}
+#resume-viewer:hover {
+  border: 2px solid hsl(45, 50%, 50%, 1);
+}
+#error-message {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+  width: 50vh;
+  height: 25vh;
+  padding: 2vh;
+  background-color: hsl(30, 5%, 15%);
+  position: absolute;
+  left: calc(50vw - 27vh);
+  top: 35vh;
+  border: 1px solid hsla(45, 50%, 50%, 0);
+  border-radius: 12px;
+  transform: translate(-1px, 1.5px);
+  z-index: 0;
+  user-select: none;
+}
+#pdf-download-link {
+  display: inline-block;
+  margin: 1vh;
+  padding: 0.25vh;
+  width: fit-content;
+}
+@media screen and (orientation: portrait) {
+  #resume-viewer {
+    width: 80vw;
+  }
+  #error-message {
+    left: calc(50vw - 31vw);
+    width: 60vw;
+    padding: 1vw;
+  }
+}

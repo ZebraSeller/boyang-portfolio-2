@@ -76,6 +76,11 @@
   text-align: left;
   transition-duration: 0.4s;
 }
+.experience-bold {
+  font-weight: bolder;
+  font-size: 18px;
+  color: hsl(45, 50%, 50%);
+}
 .experience-list:hover {
   transform: scale(101.5%);
 }

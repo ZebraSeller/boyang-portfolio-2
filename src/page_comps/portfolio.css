@@ -1,0 +1,26 @@
+#portfolio-container {
+  width: 100%;
+  height: fit-content;
+  background-color: hsl(30, 5%, 17%);
+  color: white;
+}
+.portfolio-image {
+  filter: invert(1);
+}
+#portfolio-items-container {
+  color: white;
+}
+.portfolio-links {
+  display: inline-block;
+  font-size: 22.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: white;
+  vertical-align: middle;
+  flex-basis: content;
+  flex-grow: 2;
+  text-align: right;
+  cursor: pointer;
+}

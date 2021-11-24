@@ -25,6 +25,6 @@ p {
 }
 @media screen and (orientation: portrait) {
   .skill-icon-container {
-    width: 80px;
+    width: fit-content;
   }
 }

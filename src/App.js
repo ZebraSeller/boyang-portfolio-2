@@ -6,8 +6,8 @@ import Nav_Bar from './general_comps/nav_bar';
 import Footer from './general_comps/footer';
 /** Importing pages */
 import Home from "./page_comps/home";
-import ContactMe from "./page_comps/contact_me";
-
+import Resume from "./page_comps/resume";
+import Portfolio from "./page_comps/portfolio";
 
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
         <Nav_Bar />
         {/* <Home/> */}
         <Switch>
-          <Route exact path="/boyang-portfolio-2/" component={Home}/>
-          <Route path="/portfolio" exact component={Home}/>
-          <Route path="/resume" exact component={Home}/>
-          <Route path="/boyang-portfolio-2/contact_me" exact component={ContactMe}/>
+          <Route path="/boyang-portfolio-2/" exact component={Home}/>
+          <Route path="/boyang-portfolio-2/portfolio" exact component={Portfolio}/>
+          <Route path="/boyang-portfolio-2/resume" exact component={Resume}/>
+          {/* <Route path="/boyang-portfolio-2/contact_me" exact component={ContactMe}/> */}
         </Switch>
         <Footer />
       </div>

@@ -36,15 +36,15 @@ function App() {
       <div id="home-box">
         <div style={{height:"8vh"}} className="place-holder"></div>
         <p>Boyang's Site 2.0, This is a Work In Progress</p>
+        <p>Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
         <div style={{height:"12vh"}} className="place-holder"></div>
         <h1 id="greetings">Greetings, I am Boyang Yu</h1>
         <img id="boyang-photo-1" src = {boyang1}/>
         <p className="intro-text">Material Science and Engineering Major
-          &amp; Minoring in Computer Science <br/>
+          &amp; Computer Science Minor<br/>
           @ University of Illinois at Urbana-Champaign</p>
         <p className="intro-text"> Software Developer | Web Developer | Amateur Artist | Designer</p>
-        <p>Link to Old Website: </p>
-        <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a>
+        
         {/* <div className="place-holder">...This Page (& the rest of the website) is still Under Construction...</div> */}
       </div>
       <AboutMe />
