@@ -39,6 +39,7 @@ function App() {
 				<NavBarButton text="Portfolio" onClick={() => {UnderConstructionAlert();}} linkToPage="/boyang-portfolio-2/portfolio"/>
 				<NavBarButton text="Resume" linkToPage="/boyang-portfolio-2/resume"/>
 				<NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/#footer-container"/>
+				{/* <NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/contact_me"/> */}
 				{/* <NavBarButton text="Misc." onClick={() => {UnderConstructionAlert();}}/> */}
 				<div className="hide-button-border" style={borderStyle}></div>
 				<div onClick={() => hideNavBar()} id="hide-button">&#10094;</div>

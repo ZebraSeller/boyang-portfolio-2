@@ -8,6 +8,7 @@ import Footer from './general_comps/footer';
 import Home from "./page_comps/home";
 import Resume from "./page_comps/resume";
 import Portfolio from "./page_comps/portfolio";
+// import ContactMe from "./page_comps/contact_me";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/boyang-portfolio-2/portfolio" exact component={Portfolio}/>
           <Route path="/boyang-portfolio-2/resume" exact component={Resume}/>
           {/* <Route path="/boyang-portfolio-2/contact_me" exact component={ContactMe}/> */}
+          {/* <Route path="*" component={Home}/> */}
         </Switch>
         <Footer />
       </div>
