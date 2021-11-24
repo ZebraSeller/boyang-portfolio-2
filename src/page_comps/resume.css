@@ -17,7 +17,7 @@
   transition-duration: 0.4s;
 }
 #resume-viewer:hover {
-  border: 2px solid hsl(45, 50%, 50%, 1);
+  border: 2px solid hsla(45, 50%, 50%, 1);
 }
 #error-message {
   justify-content: center;

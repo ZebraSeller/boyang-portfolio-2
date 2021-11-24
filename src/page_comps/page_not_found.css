@@ -1,0 +1,14 @@
+#page-not-found-container {
+  background-color: hsl(30, 5%, 17%);
+  color: hsl(45, 50%, 50%);
+}
+.not-found-header1 {
+  font-size:calc(5vh);
+  height: 5vh;
+}
+
+@media screen and (orientation: portrait) {
+  .not-found-header1 {
+    font-size: 8vw;
+  }
+}

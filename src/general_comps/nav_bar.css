@@ -81,7 +81,7 @@
 
 @media screen and (orientation: portrait) {
   #nav-bar-container {
-    height: 56vh;
+    height: 48vh;
   }
   #zb-icon {
     width: 11vw;
@@ -90,7 +90,7 @@
   }
   .button-container {
     width: 87%;
-    height: 56vh;
+    height: 48vh;
     flex-direction: column;
     align-items: center;
     padding-left: 0%;
