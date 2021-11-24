@@ -17,7 +17,7 @@ function App() {
   });
   
   function homeScrollUp(yOffset) {
-    var opacityFraction = (window.innerHeight / 3 - yOffset) / (window.innerHeight / 4);
+    var opacityFraction = (525 - yOffset) / 450;
     var scaleFraction = 1 + yOffset / 5000;
     
     document.getElementById("background-image").style.transform = "scale("+ scaleFraction + "," + scaleFraction + ")";
@@ -39,7 +39,7 @@ function App() {
         <p>Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
         <div style={{height:"12vh"}} className="place-holder"></div>
         <h1 id="greetings">Greetings, I am Boyang Yu</h1>
-        <img id="boyang-photo-1" src = {boyang1}/>
+        <img id="boyang-photo-1" src = {boyang1} width = "360px"/>
         <p className="intro-text">Material Science and Engineering Major
           &amp; Computer Science Minor<br/>
           @ University of Illinois at Urbana-Champaign</p>
