@@ -54,7 +54,7 @@ let navBarHidden = false;
 function hideNavBar() {
 	if (window.innerHeight > window.innerWidth) {//case: screen orientation portrait
 		if (navBarHidden === false) {
-			document.getElementById("nav-bar-container").style.transform ="translateY(-56vh)";
+			document.getElementById("nav-bar-container").style.transform ="translateY(-48vh)";
 			document.getElementById("zb-icon").style.paddingRight="0.5vw";
 			document.getElementById("zb-icon").style.transform ="translateY(-36vh)";
 			// document.getElementById("bottom-bar").style.transform ="translateY(-56vh)";
