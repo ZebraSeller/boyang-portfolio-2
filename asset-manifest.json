@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/boyang-portfolio-2/static/css/main.13d66038.chunk.css",
-    "main.js": "/boyang-portfolio-2/static/js/main.5d2ccc64.chunk.js",
-    "main.js.map": "/boyang-portfolio-2/static/js/main.5d2ccc64.chunk.js.map",
-    "runtime-main.js": "/boyang-portfolio-2/static/js/runtime-main.1b9943ab.js",
-    "runtime-main.js.map": "/boyang-portfolio-2/static/js/runtime-main.1b9943ab.js.map",
+    "main.css": "/boyang-portfolio-2/static/css/main.0da290d3.chunk.css",
+    "main.js": "/boyang-portfolio-2/static/js/main.42bf5ef9.chunk.js",
+    "main.js.map": "/boyang-portfolio-2/static/js/main.42bf5ef9.chunk.js.map",
+    "runtime-main.js": "/boyang-portfolio-2/static/js/runtime-main.f5dc4464.js",
+    "runtime-main.js.map": "/boyang-portfolio-2/static/js/runtime-main.f5dc4464.js.map",
     "static/js/2.75ba8ca4.chunk.js": "/boyang-portfolio-2/static/js/2.75ba8ca4.chunk.js",
     "static/js/2.75ba8ca4.chunk.js.map": "/boyang-portfolio-2/static/js/2.75ba8ca4.chunk.js.map",
-    "static/js/3.a3648872.chunk.js": "/boyang-portfolio-2/static/js/3.a3648872.chunk.js",
-    "static/js/3.a3648872.chunk.js.map": "/boyang-portfolio-2/static/js/3.a3648872.chunk.js.map",
+    "static/js/3.6e12e157.chunk.js": "/boyang-portfolio-2/static/js/3.6e12e157.chunk.js",
+    "static/js/3.6e12e157.chunk.js.map": "/boyang-portfolio-2/static/js/3.6e12e157.chunk.js.map",
     "index.html": "/boyang-portfolio-2/index.html",
-    "static/css/main.13d66038.chunk.css.map": "/boyang-portfolio-2/static/css/main.13d66038.chunk.css.map",
+    "static/css/main.0da290d3.chunk.css.map": "/boyang-portfolio-2/static/css/main.0da290d3.chunk.css.map",
     "static/js/2.75ba8ca4.chunk.js.LICENSE.txt": "/boyang-portfolio-2/static/js/2.75ba8ca4.chunk.js.LICENSE.txt",
     "static/media/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.faa8659f.jpg": "/boyang-portfolio-2/static/media/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.faa8659f.jpg",
     "static/media/3dsmax.dbb23ff5.png": "/boyang-portfolio-2/static/media/3dsmax.dbb23ff5.png",
@@ -54,9 +54,9 @@
     "static/media/zb_logo_thick_white.ed455213.png": "/boyang-portfolio-2/static/media/zb_logo_thick_white.ed455213.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b9943ab.js",
+    "static/js/runtime-main.f5dc4464.js",
     "static/js/2.75ba8ca4.chunk.js",
-    "static/css/main.13d66038.chunk.css",
-    "static/js/main.5d2ccc64.chunk.js"
+    "static/css/main.0da290d3.chunk.css",
+    "static/js/main.42bf5ef9.chunk.js"
   ]
 }
