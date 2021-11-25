@@ -7,13 +7,14 @@
   /* background-image: url("../assets/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.jpg"); */
   background-size: 100% 80%;
 }
-#background-image {
+.background-image {
   position: fixed;
   z-index: -1;
-  top: 0;
+  top: -20vw;
   left: 0;
-  height: 100%;
+  width: 100vw;
 }
+
 #home-box {
   display: block;
   width: 75%;
@@ -33,6 +34,13 @@ h1 {
 @media screen and (orientation: portrait) {
   h1 {
     font-size: 8vw;
+  }
+  .background-image {
+    height: 125vh;
+    width: auto;
+    left: auto;
+    right: 0%;
+    top: -25vh;
   }
   #boyang-photo-1 {
     width: 50vw;

@@ -7,6 +7,10 @@ import './home.css';
 
 import boyang1 from '../assets/boyang-1.jpg';
 import background from '../assets/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.jpg';
+import bg0 from "../assets/bg0.png";
+import bg1 from "../assets/bg1.png";
+import bg2 from "../assets/bg2.png";
+import bg3 from "../assets/bg3.png";
 
 function App() {
   document.addEventListener('scroll',function() {
@@ -18,21 +22,28 @@ function App() {
   
   function homeScrollUp(yOffset) {
     var opacityFraction = (525 - yOffset) / 450;
-    var scaleFraction = 1 + yOffset / 5000;
-    
-    document.getElementById("background-image").style.transform = "scale("+ scaleFraction + "," + scaleFraction + ")";
+  
+    var bgs = document.getElementsByClassName("background-image");
     document.getElementById("home-box").style.opacity = opacityFraction;
 
     if (window.innerHeight > window.innerWidth) {//case: screen orientation portrait
       document.getElementById("home-box").style.transform = "translateY(" + (yOffset / 5) + "px)";
+      var scaleFraction = yOffset / 10;
     } else {
       document.getElementById("home-box").style.transform = "translateY(" + (yOffset / 1.15) + "px)";
+      var scaleFraction = yOffset / 5;
     }
+    bgs[1].style.transform = "translateY("+ (1 + scaleFraction) + "px)";
+    bgs[2].style.transform = "translateY("+ (1 + 0.5 * scaleFraction) + "px)";
+    bgs[3].style.transform = "translateY("+ (1 + 2 * scaleFraction)  + "px)";
   }
 
   return (
     <div className="home-container">
-      <img id="background-image" src={background} alt="bg"/>
+      <img className="background-image" src={bg0} alt="bg0"/>
+      <img className="background-image" src={bg1} alt="bg1"/>
+      <img id="bg2" className="background-image" src={bg2} alt="bg2"/>
+      <img className="background-image" src={bg3} alt="bg3"/>
       <div id="home-box">
         <div style={{height:"8vh"}} className="place-holder"></div>
         <p>Boyang's Site 2.0, This is a Work In Progress</p>
