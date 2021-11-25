@@ -18,14 +18,3 @@ I will work on this site when I have free time to spare, and hopefully the end r
 Boyang Yu
 9/18/2021
 
-# Planned Structure
-
-1. Intro Sequence leading to index.html
-2. index.html will have a title portion on top, then basic info and skills etc. below on the same page.
-3. Portfolio, links and resume should be on separate pages.
-
-# Design Ideas
-
-1. Overall Dark theme, with a yellow, orange, grey, and black color palette (Industrial Palette).
-2. Try include both dark and light themes.
-3. Include a separte page or section to showcase cool, original css & js effects or components.
