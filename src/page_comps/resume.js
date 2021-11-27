@@ -2,7 +2,7 @@ import React from 'react';
 
 import './resume.css';
 
-import resumePDF from '../assets/Boyang-Yu-Resume-2021-9-12.pdf';
+import resumePDF from '../assets/Boyang-Yu-Resume-2021-11-25.pdf';
 
 function App() {
   return(
