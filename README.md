@@ -4,9 +4,8 @@
 
 This project is created with react, to improve the workflow and get access to more powerful tools when building and designing the site.
 
-The first site, with the URL below, is also hosted on github pages.
-(https://zebraseller.github.io/Boyang-Portfolio-Site-Project/)
-**However, the first site was never completely finished.**
+The first site, with the URL below, is also hosted on github pages. (https://zebraseller.github.io/Boyang-Portfolio-Site-Project/)
+**!!! However, the first site was never completely finished. !!!**
 
 This second site is being made because:
 
