@@ -46,8 +46,8 @@ function App() {
       <img className="background-image" src={bg3} alt="bg3"/>
       <div id="home-box">
         <div style={{height:"8vh"}} className="place-holder"></div>
-        <p>Boyang's Site 2.0, This is a Work In Progress</p>
-        <p>Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
+        <p className="top-notes">Boyang's Site 2.0, This is a Work In Progress. Best viewed in landscape mode on PC.</p>
+        <p className="top-notes">Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
         <div style={{height:"12vh"}} className="place-holder"></div>
         <h1 id="greetings">Greetings, I am Boyang Yu</h1>
         <img id="boyang-photo-1" src = {boyang1} width = "360px"/>

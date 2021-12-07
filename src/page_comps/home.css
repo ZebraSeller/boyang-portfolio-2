@@ -30,6 +30,12 @@ h1 {
 #boyang-photo-1 {
   border: 1px solid hsl(45, 75%, 50%);
 }
+.top-notes {
+  font-size: 14px;
+}
+.intro-text {
+  font-size: 21px;
+}
 
 
 @media screen and (orientation: portrait) {
@@ -48,5 +54,11 @@ h1 {
   }
   #home-box {
     height: 125vh;
+  }
+  .top-notes {
+    font-size: 12px;
+  }
+  .intro-text {
+    font-size: 19px;
   }
 }
