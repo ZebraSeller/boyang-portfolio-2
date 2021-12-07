@@ -15,7 +15,7 @@ function App() {
       </div>
       <h1 className="experiences-header1">My Experiences</h1>
       <div className="experience-container">
-        <h2 className="experience-title">Web Development &amp; Front-End Engineer Internship at Shoptaki</h2>
+        <h2 className="experience-title">Front-End/Software Engineer Internship at Shoptaki</h2>
         <h2 className="experience-time">June-August 2021</h2>
         <p className="experience-list">• Worked on web apps, designed UI and implemented web pages with HTML, and React JS.</p>
         <p className="experience-list">• Collaborated with team members to create new components and pages for websites.</p>
