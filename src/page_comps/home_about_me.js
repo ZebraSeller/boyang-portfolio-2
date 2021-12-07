@@ -19,7 +19,7 @@ function App() {
           Combining my previous knowledge of HTML &amp; CSS with the new React skills I learned, I was able to put together this little website. <br/><br/>
           When I am not busy doing coursework or working on any side projects, I enjoy watching movies, jogging, or just surf 
           the internet for interesting stuff. I also love finding new restaurants with delicious food.<br/><br/>
-          <b>Don't forget to check out my experiences and skills down below!</b>
+          
         </p>
       </div>
       <br/><br/><br/><br/>
