@@ -11,15 +11,16 @@ function App() {
         <p className="experience-list experience-bold">Major: Materials Science and Engineering.</p>
         <p className="experience-list experience-bold" >Minor: Computer Science</p>
         <p className="experience-list">Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
-        Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; Statistics and Probability</p>
+        Database Systems,&nbsp;&nbsp; Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; Statistics and Probability</p>
       </div>
       <h1 className="experiences-header1">My Experiences</h1>
       <div className="experience-container">
         <h2 className="experience-title">Front-End/Software Engineer Internship at Shoptaki</h2>
         <h2 className="experience-time">June-August 2021</h2>
-        <p className="experience-list">• Worked on web apps, designed UI and implemented web pages with HTML, and React JS.</p>
+        <p className="experience-list">• Worked on web applications, designed User Interface, implemented web pages with HTML and React JS.</p>
         <p className="experience-list">• Collaborated with team members to create new components and pages for websites.</p>
-        <p className="experience-list">• Page Demo: <a href="https://www.artstation.com/artwork/9mYyZy" className="links">https://www.artstation.com/artwork/9mYyZy</a></p>
+        <p className="experience-list">• Designed and Implemented a functioning Donation Page.</p>
+        {/* <p className="experience-list">• Page Demo: <a href="https://www.artstation.com/artwork/9mYyZy" className="links">https://www.artstation.com/artwork/9mYyZy</a></p> */}
       </div>
       <div className="experience-container">
         <h2 className="experience-title">Personal Portfolio Website Project 2.0 ( This website right here! :-) )</h2>

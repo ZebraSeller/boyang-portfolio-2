@@ -12,6 +12,7 @@ import reactIcon from "../assets/skill-icons/react.png";
 import cppIcon from "../assets/skill-icons/cpp.png";
 import pythonIcon from "../assets/skill-icons/python.png";
 import nodeJSIcon from "../assets/skill-icons/nodejs.png";
+import SQLIcon from "../assets/skill-icons/sql.png";
 import dotsIcon from "../assets/skill-icons/dots.png";
 import unityIcon from "../assets/skill-icons/unity.png";
 import vscodeIcon from "../assets/skill-icons/vscode.png";
@@ -58,6 +59,7 @@ function App() {
           <SkillIcon image={cppIcon} text="&#9733; C++"/>
           <SkillIcon image={pythonIcon} text="Python"/>
           <SkillIcon image={nodeJSIcon} text="Node.js"/>
+          <SkillIcon image={SQLIcon} text="SQL"/>
           <SkillIcon image={dotsIcon} text="Still Learning More..." width="85px" noHoeverEffect={true}/>
         </div>
         <div className="skill-category">
