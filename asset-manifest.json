@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/boyang-portfolio-2/static/css/main.89537017.chunk.css",
-    "main.js": "/boyang-portfolio-2/static/js/main.71f147f8.chunk.js",
-    "main.js.map": "/boyang-portfolio-2/static/js/main.71f147f8.chunk.js.map",
+    "main.js": "/boyang-portfolio-2/static/js/main.2402aff4.chunk.js",
+    "main.js.map": "/boyang-portfolio-2/static/js/main.2402aff4.chunk.js.map",
     "runtime-main.js": "/boyang-portfolio-2/static/js/runtime-main.f5dc4464.js",
     "runtime-main.js.map": "/boyang-portfolio-2/static/js/runtime-main.f5dc4464.js.map",
     "static/js/2.75ba8ca4.chunk.js": "/boyang-portfolio-2/static/js/2.75ba8ca4.chunk.js",
@@ -48,6 +48,7 @@
     "static/media/r.887eb570.png": "/boyang-portfolio-2/static/media/r.887eb570.png",
     "static/media/react.b37f0a4b.png": "/boyang-portfolio-2/static/media/react.b37f0a4b.png",
     "static/media/rstudio.3d44a20f.png": "/boyang-portfolio-2/static/media/rstudio.3d44a20f.png",
+    "static/media/sql.4d393679.png": "/boyang-portfolio-2/static/media/sql.4d393679.png",
     "static/media/substancepainter.7e9573ce.png": "/boyang-portfolio-2/static/media/substancepainter.7e9573ce.png",
     "static/media/uidesign.070933e8.png": "/boyang-portfolio-2/static/media/uidesign.070933e8.png",
     "static/media/unity.b42c8bd4.png": "/boyang-portfolio-2/static/media/unity.b42c8bd4.png",
@@ -61,6 +62,6 @@
     "static/js/runtime-main.f5dc4464.js",
     "static/js/2.75ba8ca4.chunk.js",
     "static/css/main.89537017.chunk.css",
-    "static/js/main.71f147f8.chunk.js"
+    "static/js/main.2402aff4.chunk.js"
   ]
 }
