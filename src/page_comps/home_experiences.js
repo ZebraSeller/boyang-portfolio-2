@@ -6,10 +6,10 @@ function App() {
       <div id="top-bar"/> <br/>
       <h1 className="experiences-header1">Education</h1>
       <div className="experience-container">
-        <h2 className="experience-title">University of Illinois at Urbana-Champaign</h2>
+        <h2 className="experience-title">B.S. Materials Science and Engineering with Materials Computation and Theory Focus, and Minor in Computer Science</h2>
         <h2 className="experience-time">2019-2023</h2>
-        <p className="experience-list experience-bold">Major: Materials Science and Engineering.</p>
-        <p className="experience-list experience-bold" >Minor: Computer Science</p>
+        {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
+        <p className="experience-list experience-bold" >University of Illinois at Urbana-Champaign</p>
         <p className="experience-list">Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
         Database Systems,&nbsp;&nbsp; Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; Statistics and Probability</p>
       </div>
