@@ -13,6 +13,7 @@ import cppIcon from "../assets/skill-icons/cpp.png";
 import pythonIcon from "../assets/skill-icons/python.png";
 import nodeJSIcon from "../assets/skill-icons/nodejs.png";
 import SQLIcon from "../assets/skill-icons/sql.png";
+import MySQLIcon from "../assets/skill-icons/mysql.png";
 import dotsIcon from "../assets/skill-icons/dots.png";
 import unityIcon from "../assets/skill-icons/unity.png";
 import vscodeIcon from "../assets/skill-icons/vscode.png";
@@ -21,6 +22,7 @@ import androidStudioIcon from "../assets/skill-icons/androidstudio.png";
 import rStudioIcon from "../assets/skill-icons/rstudio.png";
 import eclipseIcon from "../assets/skill-icons/eclipse.png";
 import githubIcon from "../assets/skill-icons/github.png";
+import gCPIcon from "../assets/skill-icons/gcp.png";
 import rIcon from "../assets/skill-icons/r.png";
 import matlabIcon from "../assets/skill-icons/matlab.png";
 import excelIcon from "../assets/skill-icons/excel.png";
@@ -59,7 +61,8 @@ function App() {
           <SkillIcon image={cppIcon} text="&#9733; C++"/>
           <SkillIcon image={pythonIcon} text="Python"/>
           <SkillIcon image={nodeJSIcon} text="Node.js"/>
-          <SkillIcon image={SQLIcon} text="SQL"/>
+          <SkillIcon image={SQLIcon} text="&#9733; SQL"/>
+          <SkillIcon image={MySQLIcon} text="MySQL"/>
           <SkillIcon image={dotsIcon} text="Still Learning More..." width="85px" noHoeverEffect={true}/>
         </div>
         <div className="skill-category">
@@ -71,6 +74,7 @@ function App() {
           <SkillIcon image={rStudioIcon} text="R Studio"/>
           <SkillIcon image={eclipseIcon} text="Eclipse IDE"/>
           <SkillIcon image={githubIcon} text="&#9733; GitHub"/>
+          <SkillIcon image={gCPIcon} text="Google Cloud"/>
         </div>
         <div className="skill-category">
           <h2 className="category-title">Data Analysis &amp; Productivity</h2>
