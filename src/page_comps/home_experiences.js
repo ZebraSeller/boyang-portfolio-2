@@ -11,22 +11,19 @@ function App() {
         <h2 className="experience-time">2019-2023</h2>
         {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
         <p className="experience-list experience-bold" >University of Illinois at Urbana-Champaign (UIUC)</p>
-        <p className="experience-list">Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
-        Database Systems,&nbsp;&nbsp; Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; Statistics and Probability</p>
+        <p className="experience-list"> Overall GPA: 3.79</p>
+        <p className="experience-list">
+          Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
+          Database Systems,&nbsp;&nbsp; Game Development,&nbsp;&nbsp; Art of Web Programming,&nbsp;&nbsp; Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; 
+          Statistics and Probability,&nbsp;&nbsp; Atomic Scale Simulations
+        </p>
       </div>
 
       <h1 className="experiences-header1">My Experiences</h1>
 
       <div className="experience-container">
-        <h2 className="experience-title">Junior Android Engineer (Kotlin, Java)</h2>
-        <h2 className="experience-time">August-December 2022</h2>
-        <h3 className="experience-title">Synchrony • Part-Time</h3>
-        <p className="experience-list">• (UPCOMING)</p>
-      </div>
-
-      <div className="experience-container">
         <h2 className="experience-title">Android Engineer Intern (Kotlin, Java)</h2>
-        <h2 className="experience-time">May-August 2022</h2>
+        <h2 className="experience-time">May-December 2022</h2>
         <h3 className="experience-title">Synchrony • Internship</h3>
         <p className="experience-list">• Worked on an Android application for processing payments, addressed bugs and implemented new features.</p>
         <p className="experience-list">• Participated in an Agile development cycle, and actively collaborated with team members.</p>
@@ -108,7 +105,7 @@ function App() {
 
       <h1 className="experiences-header1">Awards and Honors</h1>
       <div className="award-container">
-        <h2 className="experience-title">Robert E. and Karen Martin Luetje Scholarship (UIUC)</h2>
+        <h2 className="experience-title">Robert E. and Karen Martin Luetje Scholar (UIUC)</h2>
         <h2 className="experience-time">April 2022</h2>
         <h3 className="experience-title">UIUC • Scholarship</h3>
         <p className="experience-list">• This scholarship is awarded by the Material Science and Engineering Department in honor of outstanding academic performance.</p>

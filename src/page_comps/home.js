@@ -6,9 +6,7 @@ import Experiences from './home_experiences';
 import './home.css';
 
 import boyang1 from '../assets/boyang-1.jpg';
-import boyang3 from '../assets/boyang-3.jpg';
-import boyang3T from '../assets/boyang-3-transparent.png';
-import background from '../assets/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.jpg';
+import boyang4 from '../assets/boyang-4.png';
 import bg0 from "../assets/bg0.png";
 import bg1 from "../assets/bg1.png";
 import bg2 from "../assets/bg2.png";
@@ -52,7 +50,7 @@ function App() {
         <p className="top-notes">Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
         <div style={{height:"12vh"}} className="place-holder"></div>
         <h1 id="greetings">Greetings, I am Boyang Yu</h1>
-        <img id="boyang-photo-1" src = {boyang3} width = "360px"/>
+        <img id="boyang-photo-1" src = {boyang4} width = "360px"/>
         <p className="intro-text">Material Science and Engineering Major
           &amp; Computer Science Minor<br/>
           @ University of Illinois at Urbana-Champaign</p>

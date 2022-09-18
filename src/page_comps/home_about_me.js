@@ -2,6 +2,7 @@ import React from 'react';
 import './home_about_me.css';
 
 import boyang2 from '../assets/boyang-2.png';
+import boyang5 from '../assets/boyang-5.png';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         </p>
       </div>
       <br/><br/><br/><br/>
-      <img id="boyang-2" src={boyang2} width="500px"/>
+      <img id="boyang-2" src={boyang5} width="500px"/>
       <br/><br/>
       
     </div>
