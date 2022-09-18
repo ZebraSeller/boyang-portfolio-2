@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/boyang-portfolio-2/static/css/main.d65ea2bf.chunk.css",
-    "main.js": "/boyang-portfolio-2/static/js/main.d23f3d3b.chunk.js",
-    "main.js.map": "/boyang-portfolio-2/static/js/main.d23f3d3b.chunk.js.map",
+    "main.css": "/boyang-portfolio-2/static/css/main.6c9b2059.chunk.css",
+    "main.js": "/boyang-portfolio-2/static/js/main.c9fd5d1a.chunk.js",
+    "main.js.map": "/boyang-portfolio-2/static/js/main.c9fd5d1a.chunk.js.map",
     "runtime-main.js": "/boyang-portfolio-2/static/js/runtime-main.f5dc4464.js",
     "runtime-main.js.map": "/boyang-portfolio-2/static/js/runtime-main.f5dc4464.js.map",
     "static/js/2.75ba8ca4.chunk.js": "/boyang-portfolio-2/static/js/2.75ba8ca4.chunk.js",
@@ -10,11 +10,10 @@
     "static/js/3.6e12e157.chunk.js": "/boyang-portfolio-2/static/js/3.6e12e157.chunk.js",
     "static/js/3.6e12e157.chunk.js.map": "/boyang-portfolio-2/static/js/3.6e12e157.chunk.js.map",
     "index.html": "/boyang-portfolio-2/index.html",
-    "static/css/main.d65ea2bf.chunk.css.map": "/boyang-portfolio-2/static/css/main.d65ea2bf.chunk.css.map",
+    "static/css/main.6c9b2059.chunk.css.map": "/boyang-portfolio-2/static/css/main.6c9b2059.chunk.css.map",
     "static/js/2.75ba8ca4.chunk.js.LICENSE.txt": "/boyang-portfolio-2/static/js/2.75ba8ca4.chunk.js.LICENSE.txt",
-    "static/media/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.faa8659f.jpg": "/boyang-portfolio-2/static/media/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.faa8659f.jpg",
     "static/media/3dsmax.dbb23ff5.png": "/boyang-portfolio-2/static/media/3dsmax.dbb23ff5.png",
-    "static/media/Boyang-Yu-Resume-2022-05-07.54c09d24.pdf": "/boyang-portfolio-2/static/media/Boyang-Yu-Resume-2022-05-07.54c09d24.pdf",
+    "static/media/Boyang-Yu-Resume-2022-09-13.b275a093.pdf": "/boyang-portfolio-2/static/media/Boyang-Yu-Resume-2022-09-13.b275a093.pdf",
     "static/media/index.css": "/boyang-portfolio-2/static/media/Outfit-Light.ad7b6650.ttf",
     "static/media/androidstudio.253339aa.png": "/boyang-portfolio-2/static/media/androidstudio.253339aa.png",
     "static/media/artstation_icon.a0d48eda.png": "/boyang-portfolio-2/static/media/artstation_icon.a0d48eda.png",
@@ -25,8 +24,8 @@
     "static/media/blender.1432d100.png": "/boyang-portfolio-2/static/media/blender.1432d100.png",
     "static/media/boyang-1.cdf830d4.jpg": "/boyang-portfolio-2/static/media/boyang-1.cdf830d4.jpg",
     "static/media/boyang-2.f2b84352.png": "/boyang-portfolio-2/static/media/boyang-2.f2b84352.png",
-    "static/media/boyang-3-transparent.cf425d39.png": "/boyang-portfolio-2/static/media/boyang-3-transparent.cf425d39.png",
-    "static/media/boyang-3.99cdef4f.jpg": "/boyang-portfolio-2/static/media/boyang-3.99cdef4f.jpg",
+    "static/media/boyang-4.94c54ed1.png": "/boyang-portfolio-2/static/media/boyang-4.94c54ed1.png",
+    "static/media/boyang-5.7fd47b71.png": "/boyang-portfolio-2/static/media/boyang-5.7fd47b71.png",
     "static/media/conceptdesign.5ea7efbf.png": "/boyang-portfolio-2/static/media/conceptdesign.5ea7efbf.png",
     "static/media/cpp.8fb59a2b.png": "/boyang-portfolio-2/static/media/cpp.8fb59a2b.png",
     "static/media/csharp.509c1a47.png": "/boyang-portfolio-2/static/media/csharp.509c1a47.png",
@@ -65,7 +64,7 @@
   "entrypoints": [
     "static/js/runtime-main.f5dc4464.js",
     "static/js/2.75ba8ca4.chunk.js",
-    "static/css/main.d65ea2bf.chunk.css",
-    "static/js/main.d23f3d3b.chunk.js"
+    "static/css/main.6c9b2059.chunk.css",
+    "static/js/main.c9fd5d1a.chunk.js"
   ]
 }
