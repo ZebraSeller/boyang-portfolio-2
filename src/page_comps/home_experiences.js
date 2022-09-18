@@ -61,11 +61,11 @@ function App() {
       </div>
       <div className="experience-container">
         <h2 className="experience-title">Personal Portfolio Website Project 2.0 (HTML, CSS, React.js)</h2>
-        <h2 className="experience-time">September-November 2021</h2>
+        <h2 className="experience-time">September 2021-Present</h2>
         <h3 className="experience-title">N/A • Personal Project</h3>
         <p className="experience-list">• Created a personal demo portfolio/info website that act as an interactive resume.</p>
         <p className="experience-list">• Used HTML, CSS, JavaScript, and React to create web application and visual elements that improve user interaction.</p>
-        <p className="experience-list">• The React App was deployed to and hosted on Github Pages.</p>
+        <p className="experience-list">• The React App was deployed to and hosted on Github Pages, and is being regularly updated and maintained.</p>
         <p className="experience-list">• WIP 2.0 website URL: <a href="https://zebraseller.github.io/boyang-portfolio-2/" className="links">https://zebraseller.github.io/boyang-portfolio-2/</a></p>
         <p className="experience-list">• Discontinued old website (1.0) URL: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
       </div>
