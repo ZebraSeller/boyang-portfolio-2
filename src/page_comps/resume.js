@@ -11,7 +11,7 @@ function App() {
       <h1 className="resume-header1">My Resume</h1>
       <iframe src={resumePDF} id="resume-viewer"/>
       <h3 id="error-message">
-        <h2>!</h2><br/>
+        !<br/>
         An Error Occured, Or This Media Type May Not Be Supported on Your Browser.<br/><br/>
         Please Try Download the PDF File Using the Link Below Instead.
         <br/>&nbsp;<br/>&nbsp;<br/>&nbsp;

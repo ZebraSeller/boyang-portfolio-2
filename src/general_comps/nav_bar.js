@@ -29,16 +29,16 @@ function App() {
 
 	return (
     <div id="nav-bar-container">
-			<Link to="/boyang-portfolio-2/" id="top-icon-link">
+			<Link to="/" id="top-icon-link">
 				<img src={ZBIcon} alt="LOGO.png" id="zb-icon"/>
 			</Link>
 			<div className="button-container" id="button-container">
-				<NavBarButton text="About Me" linkToPage="/boyang-portfolio-2/#home-aboout-me-container"/>
-				<NavBarButton text="Experiences" linkToPage="/boyang-portfolio-2/#home-experiences-container"/>
-				<NavBarButton text="Skills" linkToPage="/boyang-portfolio-2/#home-skills-container"/>
-				<NavBarButton text="Portfolio" onClick={() => {UnderConstructionAlert();}} linkToPage="/boyang-portfolio-2/portfolio"/>
-				<NavBarButton text="Resume" linkToPage="/boyang-portfolio-2/resume"/>
-				<NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/#footer-container"/>
+				<NavBarButton text="About Me" linkToPage="/#home-aboout-me-container"/>
+				<NavBarButton text="Experiences" linkToPage="/#home-experiences-container"/>
+				<NavBarButton text="Skills" linkToPage="/#home-skills-container"/>
+				<NavBarButton text="Portfolio" onClick={() => {UnderConstructionAlert();}} linkToPage="/portfolio"/>
+				<NavBarButton text="Resume" linkToPage="/resume"/>
+				<NavBarButton text="Contact Me" linkToPage="/#footer-container"/>
 				{/* <NavBarButton text="Contact Me" linkToPage="/boyang-portfolio-2/contact_me"/> */}
 				{/* <NavBarButton text="Misc." onClick={() => {UnderConstructionAlert();}}/> */}
 				<div className="hide-button-border" style={borderStyle}></div>
