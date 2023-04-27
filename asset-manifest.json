@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boyang-portfolio-2/static/css/main.64fae369.css",
-    "main.js": "/boyang-portfolio-2/static/js/main.82afeeab.js",
+    "main.js": "/boyang-portfolio-2/static/js/main.13d7381b.js",
     "static/js/787.c23430b1.chunk.js": "/boyang-portfolio-2/static/js/787.c23430b1.chunk.js",
     "static/media/boyang-5.png": "/boyang-portfolio-2/static/media/boyang-5.7fd47b7162e700794124.png",
     "static/media/boyang-4.png": "/boyang-portfolio-2/static/media/boyang-4.94c54ed17be388f78284.png",
@@ -55,11 +55,11 @@
     "static/media/pcbuilding.png": "/boyang-portfolio-2/static/media/pcbuilding.0243795ac51efc66d899.png",
     "index.html": "/boyang-portfolio-2/index.html",
     "main.64fae369.css.map": "/boyang-portfolio-2/static/css/main.64fae369.css.map",
-    "main.82afeeab.js.map": "/boyang-portfolio-2/static/js/main.82afeeab.js.map",
+    "main.13d7381b.js.map": "/boyang-portfolio-2/static/js/main.13d7381b.js.map",
     "787.c23430b1.chunk.js.map": "/boyang-portfolio-2/static/js/787.c23430b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64fae369.css",
-    "static/js/main.82afeeab.js"
+    "static/js/main.13d7381b.js"
   ]
 }
