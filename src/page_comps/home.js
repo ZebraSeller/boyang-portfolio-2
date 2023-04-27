@@ -55,7 +55,7 @@ function App() {
         <p className="intro-text">Material Science and Engineering Major
           &amp; Computer Science Minor<br/>
           @ University of Illinois at Urbana-Champaign</p>
-        <p className="intro-text"> Software Developer | Web Developer | Amateur Artist | Designer</p>
+        <p className="intro-text"> Software Engineer | Web Developer | Digital Artist | Designer</p>
         
         {/* <div className="place-holder">...This Page (& the rest of the website) is still Under Construction...</div> */}
       </div>

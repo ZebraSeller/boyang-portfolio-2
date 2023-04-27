@@ -7,6 +7,17 @@ function App() {
       <h1 className="experiences-header1">Education</h1>
 
       <div className="experience-container">
+        <h2 className="experience-title">M.S. Computer Science</h2>
+        <h2 className="experience-time">2023-2025</h2>
+        {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
+        <p className="experience-list experience-bold" >University of Southern California (USC)</p>
+        <p className="experience-list"> Overall GPA: N/A</p>
+        <p className="experience-list">
+          
+        </p>
+      </div>
+      
+      <div className="experience-container">
         <h2 className="experience-title">B.S. Materials Science and Engineering with Materials Computation and Theory Focus, and Minor in Computer Science</h2>
         <h2 className="experience-time">2019-2023</h2>
         {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
@@ -23,7 +34,7 @@ function App() {
 
       <div className="experience-container">
         <h2 className="experience-title">Android Engineer Intern (Kotlin, Java)</h2>
-        <h2 className="experience-time">May-December 2022</h2>
+        <h2 className="experience-time">May 2022 - May 2023</h2>
         <h3 className="experience-title">Synchrony • Internship</h3>
         <p className="experience-list">• Worked on an Android application for processing payments, addressed bugs and implemented new features.</p>
         <p className="experience-list">• Participated in an Agile development cycle, and actively collaborated with team members.</p>
@@ -45,7 +56,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">US Senate Record Analysis (JavaScript, React.js, MySQL, Node.js, GCP)</h2>
         <h2 className="experience-time">February-May 2022</h2>
-        <h3 className="experience-title">UIUC • Course Project</h3>
+        <h3 className="experience-title experience-bold">UIUC • Course Project</h3>
         <p className="experience-list">• As team manager, designed the database model, its ER diagram, and coordinated the team’s efforts.</p>
         <p className="experience-list">• Developed the frontend with react, which can request data from the backend using HTML requests for display.</p>
         <p className="experience-list">• Set up and maintained the MySQL instance on GCP, as well as routing on the backend Node.js server.</p>
@@ -54,7 +65,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">YouTube Cards Colorizer (JavaScript)</h2>
         <h2 className="experience-time">January 2022</h2>
-        <h3 className="experience-title">N/A • Personal Project</h3>
+        <h3 className="experience-title experience-bold">N/A • Personal Project</h3>
         <p className="experience-list">• Created a Chrome extension that highlights YouTube videos based on criteria set by the user.</p>
         <p className="experience-list">• Utilized JavaScript’s ability to manipulate DOMs to modify the HTML of the loaded web page.</p>
         <p className="experience-list">• Developed the functionality for users to customize criteria used to flag videos via a pop-up window.</p>
@@ -62,7 +73,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">Personal Portfolio Website Project 2.0 (HTML, CSS, React.js)</h2>
         <h2 className="experience-time">September 2021-Present</h2>
-        <h3 className="experience-title">N/A • Personal Project</h3>
+        <h3 className="experience-title experience-bold">N/A • Personal Project</h3>
         <p className="experience-list">• Created a personal demo portfolio/info website that act as an interactive resume.</p>
         <p className="experience-list">• Used HTML, CSS, JavaScript, and React to create web application and visual elements that improve user interaction.</p>
         <p className="experience-list">• The React App was deployed to and hosted on Github Pages, and is being regularly updated and maintained.</p>
@@ -72,7 +83,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">Unity Games Development (Unity, C#)</h2>
         <h2 className="experience-time">2020-2021</h2>
-        <h3 className="experience-title">N/A • Personal Project</h3>
+        <h3 className="experience-title experience-bold">N/A • Personal Project</h3>
         <p className="experience-list">• Created several mini games using C# and Unity Engine.</p>
         <p className="experience-list">• Created most of the 3D and visual assets using Photoshop and 3DS Max.</p>
         <p className="experience-list">• Demo of Humvee Simulator: <a href="https://www.artstation.com/artwork/ZGqlN1" className="links">https://www.artstation.com/artwork/ZGqlN1</a></p>
@@ -81,7 +92,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">UIUC CS Department Course Rating App Project (Java)</h2>
         <h2 className="experience-time">November 2020</h2>
-        <h3 className="experience-title">UIUC • Course Project</h3>
+        <h3 className="experience-title experience-bold">UIUC • Course Project</h3>
         <p className="experience-list">• Developed a functioning android app with Java, based on a given framework.</p>
         <p className="experience-list">• Created the UI and core mechanics to retrieve and display data.</p>
         <p className="experience-list">• Read and write data with a local JSON database.</p>
@@ -89,7 +100,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">3D Modeling &amp; Texturing</h2>
         <h2 className="experience-time">2017-2022</h2>
-        <h3 className="experience-title">N/A • Personal Project</h3>
+        <h3 className="experience-title experience-bold">N/A • Personal Project</h3>
         <p className="experience-list">• Created 3D models and respective UV mapped textures</p>
         <p className="experience-list">• Modelled organic and non-organic objects, terrains, etc.</p>
         <p className="experience-list">• ArtStation Album of 3D Modeling Portfolio: <a href="https://zebraseller.artstation.com/albums/2056553" className="links">https://zebraseller.artstation.com/albums/2056553</a></p>
@@ -97,7 +108,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">First Tech Challenge (FTC) Robotics Competition</h2>
         <h2 className="experience-time">2017-2019</h2>
-        <h3 className="experience-title">Highschool • Extracurricular Activity</h3>
+        <h3 className="experience-title experience-bold">Highschool • Extracurricular Activity</h3>
         <p className="experience-list">• Designed and built mechanisms for the robot, and programmed the robot's behaviors during autonomous control using Java.</p>
         <p className="experience-list">• Aided in Outreaching by using photoshop to design posters and logos for the team.</p>
         <p className="experience-list">• Team ranked top 3 in regional competition and advanced to FTC World Championships.</p>
