@@ -14,8 +14,11 @@ import pythonIcon from "../assets/skill-icons/python.png";
 import nodeJSIcon from "../assets/skill-icons/nodejs.png";
 import SQLIcon from "../assets/skill-icons/sql.png";
 import MySQLIcon from "../assets/skill-icons/mysql.png";
+import mongodbIcon from "../assets/skill-icons/mongodb.png";
+import kotlinIcon from "../assets/skill-icons/kotlin.png";
 import dotsIcon from "../assets/skill-icons/dots.png";
 import unityIcon from "../assets/skill-icons/unity.png";
+import unrealIcon from "../assets/skill-icons/unreal.png";
 import vscodeIcon from "../assets/skill-icons/vscode.png";
 import vscIcon from "../assets/skill-icons/vsc.png";
 import androidStudioIcon from "../assets/skill-icons/androidstudio.png";
@@ -63,11 +66,14 @@ function App() {
           <SkillIcon image={nodeJSIcon} text="Node.js"/>
           <SkillIcon image={SQLIcon} text="&#9733; SQL"/>
           <SkillIcon image={MySQLIcon} text="MySQL"/>
+          <SkillIcon image={mongodbIcon} text="mongoDB"/>
+          <SkillIcon image={kotlinIcon} text="Kotlin"/>
           <SkillIcon image={dotsIcon} text="Still Learning More..." width="85px" noHoeverEffect={true}/>
         </div>
         <div className="skill-category">
           <h2 className="category-title">Software Development Tools</h2>
           <SkillIcon image={unityIcon} text="&#9733; Unity"/>
+          <SkillIcon image={unrealIcon} text="Unreal Engine"/>
           <SkillIcon image={vscodeIcon} text="&#9733; VS Code"/>
           <SkillIcon image={vscIcon} text="Visual Studio"/>
           <SkillIcon image={androidStudioIcon} text="Android Studio" fontSize="15px"/>

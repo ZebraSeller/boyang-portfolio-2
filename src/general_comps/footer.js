@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="contact-item">
           <img className="contact-icon" src={emailIcon} alt="email-icon.png"/>
-          <a className="footer-link" href="mailto:boyangy4@illinois.edu" onClick={() => {copyToClipBoard("boyangy4@illinois.edu");}}>boyangy4@illinois.edu</a>
+          <a className="footer-link" href="mailto:yuboyang@usc.edu" onClick={() => {copyToClipBoard("yuboyang@usc.edu");}}>yuboyang@usc.edu</a>
         </div> <br/><br/>
         <div className="contact-item">
           <img className="contact-icon" src={linkedInIcon} alt="contact-icon.png"/>
@@ -39,7 +39,7 @@ function App() {
           <p className="footer-link" onClick={() => {copyToClipBoard("(+1) 510-598-7828");}}>(+1) 510-598-7828 </p>
         </div> <br/><br/>
       </div>
-      <p className="footer-text">&#169; 2021 Boyang Yu</p>
+      <p className="footer-text">&#169; 2023 Boyang Yu</p>
     </div>
   );
 }

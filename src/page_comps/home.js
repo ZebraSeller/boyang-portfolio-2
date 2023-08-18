@@ -50,11 +50,10 @@ function App() {
         <p className="top-notes">Boyang's Site 2.0, This is a Work In Progress. Best viewed in landscape mode on PC.</p>
         <p className="top-notes">Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
         <div style={{height:"12vh"}} className="place-holder"></div>
-        <h1 id="greetings">Greetings, I am Boyang Yu</h1>
+        <h1 id="greetings">Greetings, I am Boyang Yu, <br/> you can also call me Bo!<br/></h1>
         <img id="boyang-photo-1" src = {boyang6} width = "360px"/>
-        <p className="intro-text">Material Science and Engineering Major
-          &amp; Computer Science Minor<br/>
-          @ University of Illinois at Urbana-Champaign</p>
+        <p className="intro-text">Master of Science in Computer Science<br/>
+          @ University of Southern California</p>
         <p className="intro-text"> Software Engineer | Web Developer | Digital Artist | Designer</p>
         
         {/* <div className="place-holder">...This Page (& the rest of the website) is still Under Construction...</div> */}

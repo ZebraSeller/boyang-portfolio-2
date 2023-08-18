@@ -18,11 +18,11 @@ function App() {
       </div>
       
       <div className="experience-container">
-        <h2 className="experience-title">B.S. Materials Science and Engineering with Materials Computation and Theory Focus, and Minor in Computer Science</h2>
+        <h2 className="experience-title">B.S. Materials Science and Engineering with Computation Focus, and Minor in Computer Science</h2>
         <h2 className="experience-time">2019-2023</h2>
         {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
         <p className="experience-list experience-bold" >University of Illinois at Urbana-Champaign (UIUC)</p>
-        <p className="experience-list"> Overall GPA: 3.79</p>
+        <p className="experience-list"> Overall GPA: 3.81</p>
         <p className="experience-list">
           Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
           Database Systems,&nbsp;&nbsp; Game Development,&nbsp;&nbsp; Art of Web Programming,&nbsp;&nbsp; Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; 
@@ -33,12 +33,21 @@ function App() {
       <h1 className="experiences-header1">My Experiences</h1>
 
       <div className="experience-container">
+        <h2 className="experience-title">Front-End Developer at I Fly Young CCE (HTML, CSS, React.js)</h2>
+        <h2 className="experience-time">May 2022 - Now</h2>
+        <h3 className="experience-title">I Fly Young</h3>
+        <p className="experience-list">• Maintained and updated a portion of the official website for the organization using react.</p>
+        <p className="experience-list">• Improved formatting and styling of the organization's website.</p>
+      </div>
+
+      <div className="experience-container">
         <h2 className="experience-title">Android Engineer Intern (Kotlin, Java)</h2>
         <h2 className="experience-time">May 2022 - May 2023</h2>
         <h3 className="experience-title">Synchrony • Internship</h3>
         <p className="experience-list">• Worked on an Android application for processing payments, addressed bugs and implemented new features.</p>
-        <p className="experience-list">• Participated in an Agile development cycle, and actively collaborated with team members.</p>
-        <p className="experience-list">• Tested application for potential bugs and reported findings on application behaviors.</p>
+        <p className="experience-list">• Participated in an Agile development cycle, and actively collaborated with team members to complete tasks on time.</p>
+        <p className="experience-list">• Tested application for bugs, then documented and reported findings on the application behaviors.</p>
+        <p className="experience-list">• Implemented new UI and fragments for the app with asynchronous operations.</p>
       </div>
 
       <div className="experience-container">
@@ -47,12 +56,21 @@ function App() {
         <h3 className="experience-title">Shoptaki • Internship</h3>
         <p className="experience-list">• Worked on web applications, designed User Interface, implemented web pages with HTML and React JS.</p>
         <p className="experience-list">• Collaborated with team members to create new components and pages for websites.</p>
-        <p className="experience-list">• Designed and Implemented a functioning Donation Page.</p>
+        <p className="experience-list">• Designed and Implemented a functioning Donation Page that accepts payments.</p>
         {/* <p className="experience-list">• Page Demo: <a href="https://www.artstation.com/artwork/9mYyZy" className="links">https://www.artstation.com/artwork/9mYyZy</a></p> */}
       </div>
 
       <h1 className="experiences-header1">My Projects</h1>
 
+      <div className="experience-container">
+        <h2 className="experience-title">Illinois Grades Vis (JavaScript, React.js, Node.js, mongoDB)</h2>
+        <h2 className="experience-time">November-December 2022</h2>
+        <h3 className="experience-title experience-bold">UIUC • Course Project</h3>
+        <p className="experience-list">• Worked with a team to create a full stack web application that visualizes grades data for UIUC courses.</p>
+        <p className="experience-list">• Created the frontend app with react, and implemented interactive visualizations such as charts and tables.</p>
+        <p className="experience-list">• Collaborated with teammates to setup routing and querying data for user search functions.</p>
+        <p className="experience-list">• Project Demo: <a href="https://youtu.be/edx1rBKdx_s" className="links">https://youtu.be/edx1rBKdx_s</a></p>
+      </div>
       <div className="experience-container">
         <h2 className="experience-title">US Senate Record Analysis (JavaScript, React.js, MySQL, Node.js, GCP)</h2>
         <h2 className="experience-time">February-May 2022</h2>
@@ -123,7 +141,7 @@ function App() {
       </div>
       <div className="award-container">
         <h2 className="experience-title">Dean's List of the Grainger College of Engineering (UIUC)</h2>
-        <h2 className="experience-time">Spring 2020 – Spring 2022</h2>
+        <h2 className="experience-time">2020–2023</h2>
         <h3 className="experience-title">UIUC • Award</h3>
         <p className="experience-list">• The names of undergraduates who have achieved a grade point average in the top 20 percent of their college class for a given semester will be included on a list prepared for the dean of the college.</p>
 
