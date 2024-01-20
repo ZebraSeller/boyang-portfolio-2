@@ -11,7 +11,7 @@ function App() {
         <h2 className="experience-time">2023-2025</h2>
         {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
         <p className="experience-list experience-bold" >University of Southern California (USC)</p>
-        <p className="experience-list"> Overall GPA: N/A</p>
+        <p className="experience-list"> Overall GPA: 3.85</p>
         <p className="experience-list">
           
         </p>
@@ -33,8 +33,8 @@ function App() {
       <h1 className="experiences-header1">My Experiences</h1>
 
       <div className="experience-container">
-        <h2 className="experience-title">Front-End Developer at I Fly Young CCE (HTML, CSS, React.js)</h2>
-        <h2 className="experience-time">May 2022 - Now</h2>
+        <h2 className="experience-title">Part-time Front-End Developer at I Fly Young CCE (HTML, CSS, React.js)</h2>
+        <h2 className="experience-time">May 2023 - Now</h2>
         <h3 className="experience-title">I Fly Young</h3>
         <p className="experience-list">• Maintained and updated a portion of the official website for the organization using react.</p>
         <p className="experience-list">• Improved formatting and styling of the organization's website.</p>
@@ -43,7 +43,7 @@ function App() {
       <div className="experience-container">
         <h2 className="experience-title">Android Engineer Intern (Kotlin, Java)</h2>
         <h2 className="experience-time">May 2022 - May 2023</h2>
-        <h3 className="experience-title">Synchrony • Internship</h3>
+        <h3 className="experience-title">Synchrony Bank • Internship</h3>
         <p className="experience-list">• Worked on an Android application for processing payments, addressed bugs and implemented new features.</p>
         <p className="experience-list">• Participated in an Agile development cycle, and actively collaborated with team members to complete tasks on time.</p>
         <p className="experience-list">• Tested application for bugs, then documented and reported findings on the application behaviors.</p>
