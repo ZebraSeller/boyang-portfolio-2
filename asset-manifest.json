@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/boyang-portfolio-2/static/css/main.64fae369.css",
-    "main.js": "/boyang-portfolio-2/static/js/main.3d0c1f3d.js",
+    "main.js": "/boyang-portfolio-2/static/js/main.02f18f77.js",
     "static/js/787.c23430b1.chunk.js": "/boyang-portfolio-2/static/js/787.c23430b1.chunk.js",
     "static/media/boyang-7.jpg": "/boyang-portfolio-2/static/media/boyang-7.255f9396ea5df982d51e.jpg",
     "static/media/boyang-4.png": "/boyang-portfolio-2/static/media/boyang-4.94c54ed17be388f78284.png",
     "static/media/boyang-8.png": "/boyang-portfolio-2/static/media/boyang-8.43dddc00adc8c432a3f6.png",
     "static/media/Montserrat-Light.otf": "/boyang-portfolio-2/static/media/Montserrat-Light.60cf1cbbe66336a0a7cb.otf",
     "static/media/boyang-1.jpg": "/boyang-portfolio-2/static/media/boyang-1.cdf830d4ba77086a0926.jpg",
-    "static/media/Boyang Yu Resume 2023.08.28.pdf": "/boyang-portfolio-2/static/media/Boyang Yu Resume 2023.08.28.0ea03fd26e93927aa16b.pdf",
+    "static/media/Boyang Yu Resume 2025.01.22.pdf": "/boyang-portfolio-2/static/media/Boyang Yu Resume 2025.01.22.9c3ecd92e03d0e5c5897.pdf",
     "static/media/bg1.png": "/boyang-portfolio-2/static/media/bg1.b0d4820e90f8d9a65134.png",
     "static/media/uidesign.png": "/boyang-portfolio-2/static/media/uidesign.070933e84f49dd9eced3.png",
     "static/media/bg2.png": "/boyang-portfolio-2/static/media/bg2.8e3ee58addd49e57bf0d.png",
@@ -57,11 +57,11 @@
     "static/media/pcbuilding.png": "/boyang-portfolio-2/static/media/pcbuilding.0243795ac51efc66d899.png",
     "index.html": "/boyang-portfolio-2/index.html",
     "main.64fae369.css.map": "/boyang-portfolio-2/static/css/main.64fae369.css.map",
-    "main.3d0c1f3d.js.map": "/boyang-portfolio-2/static/js/main.3d0c1f3d.js.map",
+    "main.02f18f77.js.map": "/boyang-portfolio-2/static/js/main.02f18f77.js.map",
     "787.c23430b1.chunk.js.map": "/boyang-portfolio-2/static/js/787.c23430b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64fae369.css",
-    "static/js/main.3d0c1f3d.js"
+    "static/js/main.02f18f77.js"
   ]
 }
