@@ -39,7 +39,7 @@ function App() {
           <p className="footer-link" onClick={() => {copyToClipBoard("(+1) 510-598-7828");}}>(+1) 510-598-7828 </p>
         </div> <br/><br/>
       </div>
-      <p className="footer-text">&#169; 2023 Boyang Yu</p>
+      <p className="footer-text">&#169; 2025 Boyang Yu</p>
     </div>
   );
 }
