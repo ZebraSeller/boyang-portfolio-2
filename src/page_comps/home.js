@@ -7,7 +7,7 @@ import './home.css';
 
 import boyang1 from '../assets/boyang-1.jpg';
 import boyang4 from '../assets/boyang-4.png';
-import boyang6 from '../assets/boyang-6.jpg';
+import boyang8 from '../assets/boyang-8.png';
 import bg0 from "../assets/bg0.png";
 import bg1 from "../assets/bg1.png";
 import bg2 from "../assets/bg2.png";
@@ -50,11 +50,11 @@ function App() {
         <p className="top-notes">Boyang's Site 2.0, This is a Work In Progress. Best viewed in landscape mode on PC.</p>
         <p className="top-notes">Link to Old Website: <a href="https://zebraseller.github.io/Boyang-Portfolio-Site-Project/" className="links">https://zebraseller.github.io/Boyang-Portfolio-Site-Project/</a></p>
         <div style={{height:"12vh"}} className="place-holder"></div>
-        <h1 id="greetings">Greetings, I am Boyang Yu, <br/> you can also call me Bo!<br/></h1>
-        <img id="boyang-photo-1" src = {boyang6} width = "360px"/>
-        <p className="intro-text">Master of Science in Computer Science<br/>
-          @ University of Southern California</p>
-        <p className="intro-text"> Software Engineer | Web Developer | Digital Artist | Designer</p>
+        <h1 id="greetings">Hey! I am Boyang Yu, <br/> you can also call me Bo.<br/></h1>
+        <img id="boyang-photo-1" src = {boyang8} width = "360px"/>
+        <p className="intro-text">Master of Science in Computer Science @ USC<br/>
+          (University of Southern California)</p>
+        <p className="intro-text"> Software Engineer | Web Developer | Digital Artist</p>
         
         {/* <div className="place-holder">...This Page (& the rest of the website) is still Under Construction...</div> */}
       </div>

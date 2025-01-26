@@ -11,32 +11,40 @@ function App() {
         <h2 className="experience-time">2023-2025</h2>
         {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
         <p className="experience-list experience-bold" >University of Southern California (USC)</p>
-        <p className="experience-list"> Overall GPA: 3.85</p>
+        {/* <p className="experience-list"> Overall GPA: 3.85</p> */}
         <p className="experience-list">
           
         </p>
       </div>
       
       <div className="experience-container">
-        <h2 className="experience-title">B.S. Materials Science and Engineering with Computation Focus, and Minor in Computer Science</h2>
+        <h2 className="experience-title">B.S. Materials Science and Engineering</h2>
         <h2 className="experience-time">2019-2023</h2>
-        {/* <p className="experience-list experience-bold">Minor: Computer Science</p> */}
+        <p className="experience-list experience-bold"> With Minor in Computer Science</p>
         <p className="experience-list experience-bold" >University of Illinois at Urbana-Champaign (UIUC)</p>
-        <p className="experience-list"> Overall GPA: 3.81</p>
-        <p className="experience-list">
+        {/* <p className="experience-list"> Overall GPA: 3.81</p> */}
+        {/* <p className="experience-list">
           Courses Taken: Intro to Computer Science,&nbsp;&nbsp; Discrete Structures,&nbsp;&nbsp; Data Structures,&nbsp;&nbsp; 
           Database Systems,&nbsp;&nbsp; Game Development,&nbsp;&nbsp; Art of Web Programming,&nbsp;&nbsp; Matrix Theory,&nbsp;&nbsp; Differential Equations,&nbsp;&nbsp; 
           Statistics and Probability,&nbsp;&nbsp; Atomic Scale Simulations
-        </p>
+        </p> */}
       </div>
 
       <h1 className="experiences-header1">My Experiences</h1>
 
       <div className="experience-container">
-        <h2 className="experience-title">Part-time Front-End Developer at I Fly Young CCE (HTML, CSS, React.js)</h2>
-        <h2 className="experience-time">May 2023 - Now</h2>
-        <h3 className="experience-title">I Fly Young</h3>
-        <p className="experience-list">• Maintained and updated a portion of the official website for the organization using react.</p>
+        <h2 className="experience-title">Research Assistant (Python, LangChain)</h2>
+        <h2 className="experience-time">Jun 2024 - Jan 2025</h2>
+        <h3 className="experience-title">DEFT Lab @ Cornell  • Research</h3>
+        <p className="experience-list">• Organized raw data into readable tables, and converted literature PDF into formats readable by LLMs.</p>
+        <p className="experience-list">• Implemented RAG with LangChain and Python to study the behavioral patterns of ChatGPT.</p>
+      </div>
+
+      <div className="experience-container">
+        <h2 className="experience-title">Part-time Front-End Developer(HTML, CSS, React.js)</h2>
+        <h2 className="experience-time">May 2023 - Aug 2024</h2>
+        <h3 className="experience-title">I Fly Young CCE • Part-time</h3>
+        <p className="experience-list">• Maintained and updated a portion of the official website for the organization using React.js.</p>
         <p className="experience-list">• Improved formatting and styling of the organization's website.</p>
       </div>
 
@@ -54,7 +62,7 @@ function App() {
         <h2 className="experience-title">Front-End/Software Engineer (HTML, CSS, React.js)</h2>
         <h2 className="experience-time">June-August 2021</h2>
         <h3 className="experience-title">Shoptaki • Internship</h3>
-        <p className="experience-list">• Worked on web applications, designed User Interface, implemented web pages with HTML and React JS.</p>
+        <p className="experience-list">• Worked on web applications, designed User Interface, implemented web pages with HTML and React.js.</p>
         <p className="experience-list">• Collaborated with team members to create new components and pages for websites.</p>
         <p className="experience-list">• Designed and Implemented a functioning Donation Page that accepts payments.</p>
         {/* <p className="experience-list">• Page Demo: <a href="https://www.artstation.com/artwork/9mYyZy" className="links">https://www.artstation.com/artwork/9mYyZy</a></p> */}
